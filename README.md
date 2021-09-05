@@ -13,4 +13,43 @@ Para la realización de este proyecto se han seguuido una serie de pasos:
 
 - Posteriormente, se han empezado a hacer llamadas a la API, teniendo en cuenta los criterios escogidos en el paso 1. La API que se ha usado para estas llamadas es [Foursquare](https://foursquare.com/) .
 
-- 
+- Con esas llamadas a la API nos hemos generado 3 data frames diferntes, uno para cada ciudad de estudio (Madrid, Barcelona y Nueva York). Estos data frames se han exportado en formato .csv para posteriormente cargarlos en Mongo db y poder hacer las geoqueries correspondientes.
+
+- Una vez cargados en Mongo db, empezamos a hacer las geoqueries, tan solo se realizará una (geoNear), la cual la utilizaremos para coger todos las localizaciones de nuestros criterios de cada ciudad a una distancia máximas que nosotros les indiquemos. (Como se comenta dentro del código, al final utilizaremos la distancia aportada por el json en vez del geoNear, dentro se explica el por qué de esta decisión). 
+
+- Finalmente, teniedo unso data frames limpios con nuestra información necesaria por cada ciudad, se ha realizado una ponderación en base a cuál de nuestros criterios tiene mayor prioridad. Estos cálculos se han realizado de la siguiente manera:
+
+    - Primero se ha calculado la media de cada uno de los parámetros a las coordenadas de nuestra localización.
+
+    - Con ese valor medio se han hecho las ponderaciones correspondientes, las cuales son las que siguen:
+
+        - Start Up x 1.0
+        - Restaurante vegano x 0.85
+        - Starbucks x 0.75
+        - Veterinario x 0.5
+        - Bar x 0.25
+    
+    - Teniendo las ponderaciones de cada parámetro de cada ciudad, queremos reducir estos 5 valores en tan solo 1 para tener una estimación de lo buena o mala que es esa ciudad para situar la empresa. 
+
+## Conclusiones
+
+Finalmente, después de realizar la ponderación y sacar los números, vemos que la mejor ciudad para localizar la empresa es .... ya que ...
+
+## Librerías usadas
+
+- [Pandas](https://pandas.pydata.org/)
+
+- [Geopandas](https://geopandas.org/)
+
+- [Json](https://www.json.org/json-en.html)
+
+- [Shapely-geometry](https://shapely.readthedocs.io/en/stable/manual.html)
+
+- [Dotenv](https://pypi.org/project/python-dotenv/)
+
+- [Os](https://docs.python.org/3/library/os.html)
+
+- [Requests](https://docs.python-requests.org/en/master/)
+
+- [Operator](https://docs.python.org/3/library/operator.html)
+
