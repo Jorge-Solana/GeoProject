@@ -1,168 +1,170 @@
 ,nombre,latitud,longitud,ciudad,distancia,tipo
 0,Vegan Streets Madrid Castellana,40.4424564,-3.679973,Madrid,6696,Vegetarian / Vegan Restaurant
-1,Vegan Streets Madrid Centro,40.4175117,-3.6976358,Madrid,9696,Vegetarian / Vegan Restaurant
-2,Vegan bistro,40.41941020023746,-3.679066382765086,Madrid,9243,Burger Joint
-3,vegetarian / vegan restaurant,40.432974,-3.686693,Madrid,7822,Vegetarian / Vegan Restaurant
-4,THUNDER VEGAN FOOD,40.42445,-3.702513,Madrid,9060,Vegetarian / Vegan Restaurant
+1,Vegan Streets Madrid Centro,40.4175117,-3.6976358,Madrid,9696,Burger Joint
+2,Vegan bistro,40.41941020023746,-3.679066382765086,Madrid,9243,Vegetarian / Vegan Restaurant
+3,THUNDER VEGAN FOOD,40.42445,-3.702513,Madrid,9060,Vegetarian / Vegan Restaurant
+4,vegetarian / vegan restaurant,40.432974,-3.686693,Madrid,7822,Vegetarian / Vegan Restaurant
 5,Mad Mad Vegan,40.424183,-3.7007315,Madrid,9045,Vegetarian / Vegan Restaurant
 6,Mad Mad Vegan,40.411118,-3.7029,Madrid,10495,Donut Shop
 7,Los Andenes Vegan,40.435206,-3.710348,Madrid,8171,Donut Shop
-8,Delish Vegan Doughnuts,40.425026,-3.701933,Madrid,8984,Vegetarian / Vegan Restaurant
-9,Delish Vegan Doughnuts,40.42694912512703,-3.7100989203246573,Madrid,9010,Bridal Shop
-10,Green Break Vegan Take Away,40.41374928145229,-3.713475465774536,Madrid,10485,Office
+8,Delish Vegan Doughnuts,40.42694912512703,-3.7100989203246573,Madrid,9010,Vegetarian / Vegan Restaurant
+9,Delish Vegan Doughnuts,40.425026,-3.701933,Madrid,8984,Bridal Shop
+10,Green Break Vegan Take Away,40.41374928145229,-3.713475465774536,Madrid,10485,Vegetarian / Vegan Restaurant
 11,Veganovias,40.462573,-3.614641,Madrid,6498,Vegetarian / Vegan Restaurant
-12,"Edificio Veganova, Alcobendas",40.53677709681925,-3.624909436497265,Madrid,5476,Vegetarian / Vegan Restaurant
-13,pura vida vegan bar,40.41020847303393,-3.709029348112721,Madrid,10737,Spanish Restaurant
-14,Vegan Rock,40.364865,-3.550834,Madrid,18368,Deli / Bodega
-15,La Vegana de Madrid,40.45738604044665,-3.6514153171630985,Madrid,5258,Bakery
+12,pura vida vegan bar,40.41020847303393,-3.709029348112721,Madrid,10737,Office
+13,Vegan Rock,40.364865,-3.550834,Madrid,18368,Spanish Restaurant
+14,"Edificio Veganova, Alcobendas",40.53677709681925,-3.624909436497265,Madrid,5476,Deli / Bodega
+15,La Vegana de Madrid,40.45738604044665,-3.6514153171630985,Madrid,5258,Vegetarian / Vegan Restaurant
 16,Mi Cabra Vegana,40.43714051642714,-3.641946315765381,Madrid,7650,Vegetarian / Vegan Restaurant
-17,El Templo Vegano,40.426277,-3.6993492,Madrid,8788,Vegetarian / Vegan Restaurant
+17,El Templo Vegano,40.426277,-3.6993492,Madrid,8788,Bakery
 18,Lombarda Vegana,40.426772,-3.698705,Madrid,8721,Convenience Store
 19,Alimentación Vegana,40.4224956,-3.6553774,Madrid,8972,Vegetarian / Vegan Restaurant
-20,Vegania Veggie Bar,40.385241,-3.747971,Madrid,14564,Vegetarian / Vegan Restaurant
-21,RESTAURANTE VEGANO PLANT GRILL,40.41558314100989,-3.701298236846924,Madrid,9980,Vegetarian / Vegan Restaurant
-22,Dolce & Vegana,40.413803,-3.717875,Madrid,10614,Ice Cream Shop
-23,Planeta Vegano,40.40853387654168,-3.700900810613643,Madrid,10732,Miscellaneous Shop
-24,Encuentro Vegano,40.406691,-3.639279,Madrid,10967,Organic Grocery
-25,Punto Vegano,40.42482121229684,-3.71585210102297,Madrid,9417,Vegetarian / Vegan Restaurant
-26,Planeta Vegano,40.410285211735406,-3.7005242358441492,Madrid,10535,Deli / Bodega
-27,La Vegana Vallekana,40.396416,-3.6677861,Madrid,11781,Vegetarian / Vegan Restaurant
-28,Inmbiliaria Vega New House,40.391291,-3.724951,Madrid,13168,Office
-29,Distrito Vegano,40.40697203771007,-3.6996788206851368,Madrid,10878,Vegetarian / Vegan Restaurant
+20,Vegania Veggie Bar,40.385241,-3.747971,Madrid,14564,Deli / Bodega
+21,Planeta Vegano,40.410285211735406,-3.7005242358441492,Madrid,10535,Vegetarian / Vegan Restaurant
+22,RESTAURANTE VEGANO PLANT GRILL,40.41558314100989,-3.701298236846924,Madrid,9980,Vegetarian / Vegan Restaurant
+23,Dolce & Vegana,40.413803,-3.717875,Madrid,10614,Ice Cream Shop
+24,Punto Vegano,40.42482121229684,-3.71585210102297,Madrid,9417,Vegetarian / Vegan Restaurant
+25,Planeta Vegano,40.40853387654168,-3.700900810613643,Madrid,10732,Miscellaneous Shop
+26,Encuentro Vegano,40.406691,-3.639279,Madrid,10967,Organic Grocery
+27,Distrito Vegano,40.40697203771007,-3.6996788206851368,Madrid,10878,Vegetarian / Vegan Restaurant
+28,La Vegana Vallekana,40.396416,-3.6677861,Madrid,11781,Vegetarian / Vegan Restaurant
+29,Inmbiliaria Vega New House,40.391291,-3.724951,Madrid,13168,Office
 30,La Huella Vegana,40.51762,-3.9257646,Las Rozas,21632,Vegetarian / Vegan Restaurant
 31,Vegarania. Tienda Vegana Online,40.48420050759367,-3.3691442012786865,Alcalá de Henares,25629,Residential Building (Apartment / Condo)
 32,Raskal Tienda Vegana,40.330682,-3.858661,Móstoles,24853,Health Food Store
 0,Campus For Start Ups,40.412344,-3.718334,Madrid,10779,Community Center
 1,ROI UP Agency,40.47594212178542,-3.6855576586049064,Madrid,3175,Coworking Space
-2,Escuela Técnica Superior de Ingenieros de Telecomunicación - ETSIT (UPM),40.45225278804831,-3.726623530581077,Madrid,7290,College Engineering Building
-3,Escuela Técnica Superior de Ingenieros Industriales - ETSII (UPM),40.43996217898623,-3.6894166867230958,Madrid,7104,College Engineering Building
-4,What's Up! Juan Bravo,40.43177869063628,-3.6728833779220813,Madrid,7843,Language School
-5,What's Up! Orense,40.448430980949404,-3.698015213012695,Madrid,6410,Tech Startup
-6,Escuela Técnica Superior de Ingenieros Aeronáuticos (UPM),40.44059460782266,-3.7247514724731445,Madrid,8234,Language School
-7,Be-Up,40.44956912037311,-3.6679462715942006,Madrid,5866,University
-8,Shape Up,40.460919,-3.680727,Madrid,4671,Coworking Space
-9,KIKO Make Up Milano,40.46925982785926,-3.641718877654826,Madrid,4426,Gym / Fitness Center
-10,Facultad de Teología de la UP Comillas,40.55042855772106,-3.6812782287597656,Alcobendas,5436,Cosmetics Shop
-11,Eventos Fly Up!,40.47294829145072,-3.630445003509522,Madrid,4731,University
-12,way up,40.46523292195809,-3.640605332237293,Madrid,4854,Bar
-13,Pop Up Space Daranya,40.458245,-3.659204,Madrid,4995,Event Service
-14,What's Up! Alcalá,40.435825,-3.642182,Madrid,7782,Miscellaneous Shop
-15,Vap-Up Cigarrillos Electrónicos,40.45612153663238,-3.7036344408988953,Madrid,5829,Event Space
-16,Pin Up,40.445238,-3.698752,Madrid,6765,Language School
-17,What's Up! Fuencarral,40.42788,-3.702116,Madrid,8685,Electronics Store
-18,Mery Make-Up,40.443492,-3.695817,Madrid,6867,Pub
-19,Sony Pool Up Store,40.42074966430664,-3.6994171142578125,Madrid,9383,Shopping Mall
-20,up english! iglesia,40.43481464991641,-3.6992805680276444,Madrid,7877,Other Great Outdoors
-21,It Style Make Up,40.443127,-3.669228,Madrid,6579,Language School
-22,START AND MOVE,40.39417580000001,-3.671290599999999,Madrid,12027,Nail Salon
-23,PICK UP Express,40.45916444446924,-3.7080390840585777,Madrid,5729,Electronics Store
-24,Step Up School (work),40.434108,-3.611354,Madrid,9109,Coworking Space
-25,Pop Up - Miss Hamptons,40.43388748168945,-3.6803128719329834,Madrid,7647,Cosmetics Shop
-26,Pin Up Comunicación,40.42906828511809,-3.7027936367599175,Madrid,8577,Cosmetics Shop
-27,pop up just handmade,40.429878,-3.673183,Madrid,8055,Nightclub
-28,Truhko Make-Up,40.42337,-3.675469,Madrid,8785,Pizza Place
-29,Waking Up,40.4296989440918,-3.6947948932647705,Madrid,8321,Building
-30,Make't Up,40.434431,-3.715765,Madrid,8446,Arts & Crafts Store
-31,MARIQUILLA MAKE UP,40.4265295,-3.6796163,Madrid,8457,Office
-32,Pop Up Chic,40.43056317278793,-3.687821434460766,Madrid,8103,Market
-33,pop up speed & bacon,40.42891311645508,-3.683213710784912,Madrid,8226,Gourmet Shop
-34,It Style Make Up Madrid,40.41761298963356,-3.622312545776367,Madrid,10280,Student Center
-35,"Pop up ""lamasmona.com""",40.42468327088853,-3.6771176901107148,Madrid,8646,Spa
-36,PICK UP Express,40.4404162534449,-3.672942254246352,Madrid,6881,Design Studio
-37,Academia de idiomas Wake Up Languages,40.4235556,-3.668121199999973,Madrid,8760,Cosmetics Shop
-38,Wake Up Languages,40.42387390136719,-3.668095111846924,Madrid,8724,Miscellaneous Shop
+2,Shape Up,40.460919,-3.680727,Madrid,4671,Gym / Fitness Center
+3,What's Up! Orense,40.448430980949404,-3.698015213012695,Madrid,6410,Tech Startup
+4,KIKO Make Up Milano,40.46925982785926,-3.641718877654826,Madrid,4426,Language School
+5,way up,40.46523292195809,-3.640605332237293,Madrid,4854,Cosmetics Shop
+6,Eventos Fly Up!,40.47294829145072,-3.630445003509522,Madrid,4731,Miscellaneous Shop
+7,What's Up! Alcalá,40.435825,-3.642182,Madrid,7782,Event Service
+8,Pop Up Space Daranya,40.458245,-3.659204,Madrid,4995,Language School
+9,Vap-Up Cigarrillos Electrónicos,40.45612153663238,-3.7036344408988953,Madrid,5829,Bar
+10,Be-Up,40.44956912037311,-3.6679462715942006,Madrid,5866,Event Space
+11,What's Up! Juan Bravo,40.43177869063628,-3.6728833779220813,Madrid,7843,Electronics Store
+12,Facultad de Teología de la UP Comillas,40.55042855772106,-3.6812782287597656,Alcobendas,5436,Coworking Space
+13,What's Up! Fuencarral,40.42788,-3.702116,Madrid,8685,Language School
+14,PICK UP Express,40.45916444446924,-3.7080390840585777,Madrid,5729,University
+15,Mery Make-Up,40.443492,-3.695817,Madrid,6867,Other Great Outdoors
+16,Sony Pool Up Store,40.42074966430664,-3.6994171142578125,Madrid,9383,Shopping Mall
+17,Escuela Técnica Superior de Ingenieros Industriales - ETSII (UPM),40.43996217898623,-3.6894166867230958,Madrid,7104,Language School
+18,START AND MOVE,40.39417580000001,-3.671290599999999,Madrid,12027,Pizza Place
+19,It Style Make Up,40.443127,-3.669228,Madrid,6579,Nail Salon
+20,Escuela Técnica Superior de Ingenieros de Telecomunicación - ETSIT (UPM),40.45225278804831,-3.726623530581077,Madrid,7290,Electronics Store
+21,Pin Up,40.445238,-3.698752,Madrid,6765,Cosmetics Shop
+22,Step Up School (work),40.434108,-3.611354,Madrid,9109,College Engineering Building
+23,up english! iglesia,40.43481464991641,-3.6992805680276444,Madrid,7877,Nightclub
+24,Pop Up - Miss Hamptons,40.43388748168945,-3.6803128719329834,Madrid,7647,Cosmetics Shop
+25,Oysho Pop Up Gallery,40.42646405586718,-3.686748991643584,Madrid,8538,College Engineering Building
+26,pop up just handmade,40.429878,-3.673183,Madrid,8055,Pub
+27,Escuela Técnica Superior de Ingenieros Aeronáuticos (UPM),40.44059460782266,-3.7247514724731445,Madrid,8234,Building
+28,Pop Up Chic,40.43056317278793,-3.687821434460766,Madrid,8103,Coworking Space
+29,Waking Up,40.4296989440918,-3.6947948932647705,Madrid,8321,Arts & Crafts Store
+30,Beautik Experience Make-Up,40.422758,-3.700772,Madrid,9198,Lingerie Store
+31,Truhko Make-Up,40.42337,-3.675469,Madrid,8785,Market
+32,PICK UP Express,40.4404162534449,-3.672942254246352,Madrid,6881,Student Center
+33,pop up speed & bacon,40.42891311645508,-3.683213710784912,Madrid,8226,University
+34,Make't Up,40.434431,-3.715765,Madrid,8446,Miscellaneous Shop
+35,MARIQUILLA MAKE UP,40.4265295,-3.6796163,Madrid,8457,Spa
+36,It Style Make Up Madrid,40.41761298963356,-3.622312545776367,Madrid,10280,Cosmetics Shop
+37,"Pop up ""lamasmona.com""",40.42468327088853,-3.6771176901107148,Madrid,8646,Pizza Place
+38,Pin Up Comunicación,40.42906828511809,-3.7027936367599175,Madrid,8577,Gourmet Shop
+39,Wake Up Languages,40.42387390136719,-3.668095111846924,Madrid,8724,Flea Market
 0,A.A.H Veterinary Services,40.434168,-3.802389,Pozuelo de Alarcón,13463,Veterinarian
 0,Bar Restaurante Anfra,40.50068111583438,-3.6906401504500015,Madrid,1673,Bar
-1,Bar Cerveceria Soccer- Sports Bar,40.476970355432975,-3.669048600553827,Madrid,2815,Sports Bar
-2,Küken Bar-Café,40.50722374496063,-3.695237620121373,Madrid,2128,Fried Chicken Joint
-3,Vivaki Bar,40.4980422334517,-3.6699963253383077,Madrid,472,Office
-4,Ôven Mozzarella Bar Las tablas,40.50450338128552,-3.674812950056463,Madrid,412,Italian Restaurant
-5,"Restaurante El Centro, Bar El Colega",40.51939650944913,-3.653474469137685,Madrid,2418,Bar
-6,Bar El Pincho,40.480941064565314,-3.6482323740448495,Madrid,3052,Spanish Restaurant
-7,Sushi&Bar,40.50536390486263,-3.6742204907892173,Madrid,445,Chinese Restaurant
-8,Eurostars Lobby Bar,40.476684257384065,-3.6873858392030416,Madrid,3164,Winery
-9,Dala's Cervecería Bar,40.469887673276844,-3.6864907402155267,Madrid,3831,Bar
-10,Bar Welcome,40.488635,-3.669062,Madrid,1520,Bar
-11,Bar Gago III,40.465466173153885,-3.691736161708832,Madrid,4453,Spanish Restaurant
-12,Conejitas Play Boy Striptease Bar,40.507230747478616,-3.667837333869649,Madrid,617,Strip Club
+1,Küken Bar-Café,40.50722374496063,-3.695237620121373,Madrid,2128,Fried Chicken Joint
+2,Ôven Mozzarella Bar Las tablas,40.50450338128552,-3.674812950056463,Madrid,412,Italian Restaurant
+3,Bar Cerveceria Soccer- Sports Bar,40.476970355432975,-3.669048600553827,Madrid,2815,Sports Bar
+4,"Restaurante El Centro, Bar El Colega",40.51939650944913,-3.653474469137685,Madrid,2418,Bar
+5,Bar El Pincho,40.480941064565314,-3.6482323740448495,Madrid,3052,Spanish Restaurant
+6,Sushi&Bar,40.50536390486263,-3.6742204907892173,Madrid,445,Chinese Restaurant
+7,Dala's Cervecería Bar,40.469887673276844,-3.6864907402155267,Madrid,3831,Bar
+8,Bar Welcome,40.488635,-3.669062,Madrid,1520,Bar
+9,Bar Gago III,40.465466173153885,-3.691736161708832,Madrid,4453,Spanish Restaurant
+10,Conejitas Play Boy Striptease Bar,40.507230747478616,-3.667837333869649,Madrid,617,Strip Club
+11,Vivaki Bar,40.4980422334517,-3.6699963253383077,Madrid,472,Office
+12,Eurostars Lobby Bar,40.476684257384065,-3.6873858392030416,Madrid,3164,Winery
 13,Higi's Bar,40.508187,-3.669117,Madrid,682,Bar
 14,Bar,40.429014364706056,-3.6851366173838027,Madrid,8237,Bar
-15,Bar Yohana,40.46340566666667,-3.646501066666667,Madrid,4791,Café
+15,Bar Alloco,40.45926463794577,-3.6733786007821068,Madrid,4786,Tapas Restaurant
 16,Bar Sube y Baja,40.54229800393129,-3.6372994846471935,Alcobendas,5293,Café
-17,Bar Alloco,40.45926463794577,-3.6733786007821068,Madrid,4786,Tapas Restaurant
-18,Bar Restaurante El Retorno,40.43528768153389,-3.657985468389717,Madrid,7531,Mediterranean Restaurant
-19,Bar Ruval,40.44033372697905,-3.6498326432661536,Madrid,7117,Spanish Restaurant
-20,Think Bar,40.508058345869664,-3.6747144703012062,Madrid,723,Nightclub
+17,Bar Yohana,40.46340566666667,-3.646501066666667,Madrid,4791,Café
+18,Think Bar,40.508058345869664,-3.6747144703012062,Madrid,723,Nightclub
+19,La Barrica,40.49517690141745,-3.6586639419562554,Madrid,1303,Bar
+20,Sky Bar,40.41331592745147,-3.700472439784997,Madrid,10207,Roof Deck
 21,Bar Periso,40.43609875691514,-3.6528754864038655,Madrid,7518,Spanish Restaurant
-22,Bar Segovia,40.43104594358479,-3.7134364951350998,Madrid,8701,Brewery
+22,Bar Los Torreznos,40.44138722012731,-3.6975332557983007,Madrid,7135,Bar
 23,Bar y Restaurante Payger,40.543759779192925,-3.632054328918457,Alcobendas,5676,Restaurant
-24,La Barrica,40.49517690141745,-3.6586639419562554,Madrid,1303,Bar
-25,La Ponderosa Bar,40.482120024794625,-3.717547222554889,Madrid,4533,Tapas Restaurant
-26,Bar Rubi,40.43502133949173,-3.680762949571264,Madrid,7526,Coffee Shop
-27,Sky Bar,40.41331592745147,-3.700472439784997,Madrid,10207,Roof Deck
-28,Bar Arpegio,40.44670089356288,-3.6772076505349935,Madrid,6202,Brewery
-29,Bar Los Torreznos,40.44138722012731,-3.6975332557983007,Madrid,7135,Bar
-30,Bar Restaurante Iberia,40.42967738548267,-3.705632587479842,Madrid,8592,Bar
-31,Marisquería Bar Rafa,40.45905351609362,-3.6602811558049373,Madrid,4889,Café
-32,Bar Madroño Restaurante,40.40761433486923,-3.700466957139174,Madrid,10823,Seafood Restaurant
-33,Restaurante Bar Hawaii,40.47439544568333,-3.718402837899678,Madrid,5071,Spanish Restaurant
-34,Bar Cruz De Mayo II,40.440572,-3.697181,Madrid,7212,Bar
-35,Bar Los Ángeles,40.43636940863364,-3.676386011121402,Madrid,7344,Spanish Restaurant
-36,Tapas  Bar,40.45104383573553,-3.6915566385306384,Madrid,5957,Spanish Restaurant
-37,El Botero Café Bar Restaurante,40.4453539938394,-3.6351715837793286,Madrid,7018,Hotel Bar
-38,Bar J. Vidal,40.436558,-3.71632,Madrid,8256,Spanish Restaurant
-39,Bar Lemar,40.42131071441751,-3.6688623481237173,Madrid,9008,Bar
-40,Bar La Rosaleda,40.43055920492006,-3.7213986304768634,Madrid,9048,Brewery
-41,Shi Sushi Bar,40.453425,-3.703453,Madrid,6088,Bar
-42,Bar Fuente de la Rosaleda,40.411766287985124,-3.6799344420433044,Madrid,10097,Bar
-43,Mi Taska Bar,40.44058550672898,-3.680464917975362,Madrid,6908,Japanese Restaurant
-44,Bar La Tienda,40.43403928054576,-3.714736920415537,Madrid,8446,Restaurant
-45,Don Jamón Bar de Tapas,40.42186582114033,-3.708497296980919,Madrid,9492,Café
+24,Marisquería Bar Rafa,40.45905351609362,-3.6602811558049373,Madrid,4889,Seafood Restaurant
+25,Naif Sandwich & Bar,40.42430407136737,-3.7019229620773473,Madrid,9061,Sandwich Place
+26,Bar Arpegio,40.44670089356288,-3.6772076505349935,Madrid,6202,Bar
+27,Klimt Gin Club Premium Bar,40.46131823831048,-3.6918670041174746,Madrid,4884,Cocktail Bar
+28,La Ponderosa Bar,40.482120024794625,-3.717547222554889,Madrid,4533,Brewery
+29,Bar El Narizotas,40.434500952280345,-3.71703279565823,Madrid,8487,Tapas Restaurant
+30,Bar Cruz De Mayo II,40.440572,-3.697181,Madrid,7212,Bar
+31,Restaurante Bar Hawaii,40.47439544568333,-3.718402837899678,Madrid,5071,Spanish Restaurant
+32,Bar Rubi,40.43502133949173,-3.680762949571264,Madrid,7526,Hotel Bar
+33,Bar Los Ángeles,40.43636940863364,-3.676386011121402,Madrid,7344,Bar
+34,Bar J. Vidal,40.436558,-3.71632,Madrid,8256,Coffee Shop
+35,Bar Ruval,40.44033372697905,-3.6498326432661536,Madrid,7117,Spanish Restaurant
+36,Bar Fuente de la Rosaleda,40.411766287985124,-3.6799344420433044,Madrid,10097,Brewery
+37,Tapas  Bar,40.45104383573553,-3.6915566385306384,Madrid,5957,Spanish Restaurant
+38,El Botero Café Bar Restaurante,40.4453539938394,-3.6351715837793286,Madrid,7018,Café
+39,Shi Sushi Bar,40.453425,-3.703453,Madrid,6088,Spanish Restaurant
+40,Bar La Tienda,40.43403928054576,-3.714736920415537,Madrid,8446,Bar
+41,Bar Restaurante El Retorno,40.43528768153389,-3.657985468389717,Madrid,7531,Japanese Restaurant
+42,Bar-Cervecería Ponzano,40.43762002108963,-3.6993648562504315,Madrid,7582,Restaurant
+43,Bar Madroño Restaurante,40.40761433486923,-3.700466957139174,Madrid,10823,Tapas Restaurant
+44,Bar Lemar,40.42131071441751,-3.6688623481237173,Madrid,9008,Mediterranean Restaurant
+45,Bar La Rosaleda,40.43055920492006,-3.7213986304768634,Madrid,9048,Bar
+46,Bar Lagasca 80,40.4290303577123,-3.6849830620465154,Madrid,8233,Spanish Restaurant
 0,Starbucks ECI Sanchinarro,40.49768721643861,-3.660368141302403,Madrid,1029,Cafeteria
 1,Starbucks Moraleja Green,40.519183,-3.656392,Alcobendas,2255,Cafeteria
 2,Starbucks Diversia Alcobendas,40.5304122,-3.6384856,Alcobendas,4172,Cafeteria
-3,Starbucks Orense 6,40.44772869759542,-3.6951754717412046,Madrid,6402,Cafeteria
-4,Starbucks,40.49024076241017,-3.5910167013925776,Madrid,6898,Coffee Shop
-5,Starbucks Gran Vía 30,40.42014039388448,-3.702886033408268,Madrid,9528,Cafeteria
-6,Starbucks ECI Castellana (Starbucks),40.44748872381242,-3.6930934929855574,Madrid,6374,Cafeteria
+3,Starbucks Gran Vía 30,40.42014039388448,-3.702886033408268,Madrid,9528,Cafeteria
+4,Starbucks Orense 6,40.44772869759542,-3.6951754717412046,Madrid,6402,Cafeteria
+5,Starbucks,40.49024076241017,-3.5910167013925776,Madrid,6898,Coffee Shop
+6,Starbucks CC La Vaguada,40.47963598026618,-3.707357285899872,Madrid,3976,Cafeteria
 7,Starbucks Alcalá 21,40.418038185194774,-3.699371513099982,Madrid,9674,Cafeteria
-8,Starbucks,40.440273,-3.682125,Madrid,6960,Coffee Shop
-9,Starbucks Princesa 40,40.42906874005007,-3.7150786671568476,Madrid,8959,Cafeteria
-10,Starbucks Gran Vía 58,40.421751918201934,-3.7083782102926905,Madrid,9501,Cafeteria
-11,Starbucks,40.51505597365679,-3.663117632576775,Madrid,1575,Coffee Shop
-12,Starbucks CC La Vaguada,40.47963598026618,-3.707357285899872,Madrid,3976,Cafeteria
-13,"Starbucks Serrano, 100",40.4335639178076,-3.6868293595360973,Madrid,7759,Cafeteria
-14,Starbucks,40.463373433797436,-3.569932193974597,Madrid,9585,Coffee Shop
-15,"Starbucks Velázquez, 32",40.424974636524,-3.684107212216363,Madrid,8670,Cafeteria
-16,Starbucks Conde de Peñalver,40.426066801136066,-3.6756167469058876,Madrid,8486,Cafeteria
-17,Starbucks Juan Bravo,40.43296760669224,-3.6832201480865474,Madrid,7778,Cafeteria
-18,Starbucks Reina Sofia,40.40885214578761,-3.693236539287397,Madrid,10563,Cafeteria
-19,Starbucks,40.4947002313464,-3.5671019289775407,Madrid,8832,Coffee Shop
-20,Starbucks Génova 27,40.425760357264515,-3.691781759262085,Madrid,8691,Cafeteria
-21,Starbucks CC Dreams,40.46282268242124,-3.636758032267253,Madrid,5255,Cafeteria
-22,Starbucks Quevedo,40.433353,-3.703958,Madrid,8159,Cafeteria
-23,Starbucks Fuencarral 43,40.423112989750564,-3.700798408458431,Madrid,9161,Cafeteria
-24,Starbucks,40.44677599194058,-3.6918291111629657,Madrid,6419,Coffee Shop
-25,Starbucks,40.420450975922165,-3.6796733064135796,Madrid,9132,Coffee Shop
-26,Starbucks Plaza de España,40.423319643246955,-3.710882844657412,Madrid,9411,Cafeteria
-27,Starbucks Arenal 14,40.41719516711848,-3.706118548830636,Madrid,9922,Cafeteria
-28,Starbucks San Miguel,40.41573297582015,-3.708717822655616,Madrid,10144,Cafeteria
-29,Starbucks Velázquez,40.4394314443529,-3.6826531171468173,Madrid,7059,Cafeteria
-30,Starbucks Room Mate Oscar,40.42075183549848,-3.6993145297210788,Madrid,9381,Cafeteria
-31,Starbucks CC Plenilunio,40.44638591027995,-3.587592789104539,Madrid,9406,Cafeteria
-32,Starbucks CC Plaza Norte II,40.54098765122251,-3.6144631129312903,San Sebastián de los Reyes,6441,Cafeteria
+8,Starbucks ECI Castellana (Starbucks),40.44748872381242,-3.6930934929855574,Madrid,6374,Cafeteria
+9,Starbucks Gran Vía 58,40.421751918201934,-3.7083782102926905,Madrid,9501,Cafeteria
+10,Starbucks Princesa 40,40.42906874005007,-3.7150786671568476,Madrid,8959,Cafeteria
+11,"Starbucks Velázquez, 32",40.424974636524,-3.684107212216363,Madrid,8670,Cafeteria
+12,Starbucks Conde de Peñalver,40.426066801136066,-3.6756167469058876,Madrid,8486,Cafeteria
+13,Starbucks,40.440273,-3.682125,Madrid,6960,Coffee Shop
+14,"Starbucks Serrano, 100",40.4335639178076,-3.6868293595360973,Madrid,7759,Cafeteria
+15,Starbucks Fuencarral 43,40.423112989750564,-3.700798408458431,Madrid,9161,Cafeteria
+16,Starbucks,40.463373433797436,-3.569932193974597,Madrid,9585,Coffee Shop
+17,Starbucks Reina Sofia,40.40885214578761,-3.693236539287397,Madrid,10563,Cafeteria
+18,Starbucks,40.420450975922165,-3.6796733064135796,Madrid,9132,Coffee Shop
+19,Starbucks San Miguel,40.41573297582015,-3.708717822655616,Madrid,10144,Cafeteria
+20,Starbucks CC Dreams,40.46282268242124,-3.636758032267253,Madrid,5255,Cafeteria
+21,Starbucks Génova 27,40.425760357264515,-3.691781759262085,Madrid,8691,Cafeteria
+22,Starbucks Juan Bravo,40.43296760669224,-3.6832201480865474,Madrid,7778,Cafeteria
+23,Starbucks CC Plaza Norte II,40.54098765122251,-3.6144631129312903,San Sebastián de los Reyes,6441,Cafeteria
+24,Starbucks Arenal 14,40.41719516711848,-3.706118548830636,Madrid,9922,Cafeteria
+25,Starbucks CC Plenilunio,40.44638591027995,-3.587592789104539,Madrid,9406,Cafeteria
+26,Starbucks,40.44677599194058,-3.6918291111629657,Madrid,6419,Coffee Shop
+27,Starbucks Plaza de España,40.423319643246955,-3.710882844657412,Madrid,9411,Cafeteria
+28,Starbucks Factory,40.56759118056671,-3.609464200826653,San Sebastián de los Reyes,8946,Cafeteria
+29,Starbucks,40.51505597365679,-3.663117632576775,Madrid,1575,Coffee Shop
+30,Starbucks,40.4947002313464,-3.5671019289775407,Madrid,8832,Coffee Shop
+31,Starbucks Velázquez,40.4394314443529,-3.6826531171468173,Madrid,7059,Cafeteria
+32,Starbucks Quevedo,40.433353,-3.703958,Madrid,8159,Cafeteria
 33,Starbucks,40.455039,-3.583356,Madrid,9089,Coffee Shop
 34,Starbucks,40.421095,-3.70256,Madri,9418,Coffee Shop
-35,Starbucks,40.418054,-3.710009,Madrid,9935,Coffee Shop
-36,Starbucks Teatro Real,40.418106483857194,-3.709606077515513,Madrid,9918,Coffee Shop
-37,Starbucks Distrito Telefónica,40.515285,-3.6631304,Madrid,1598,Cafeteria
-38,Starbucks Factory,40.56759118056671,-3.609464200826653,San Sebastián de los Reyes,8946,Cafeteria
-39,Starbucks ECI Pozuelo,40.463101058172825,-3.806382840888177,Pozuelo de Alarcón,12264,Cafeteria
-40,Starbucks,40.403120577140534,-3.687687685586035,Madrid,11122,Cafeteria
-41,Starbucks Príncipe Pío,40.421949993513195,-3.7203776278003375,Madrid,9866,Coffee Shop
-42,Starbucks Plaza Río 2,40.39130385405477,-3.701122858987979,Madrid,12608,Cafeteria
-43,Starbucks Las Rozas Village,40.51836776876095,-3.9029260202946063,Las Rozas,19713,Cafeteria
-44,Starbucks ECI Méndez Álvaro,40.39469,-3.676454,Madrid,11979,Cafeteria
-45,Starbucks CC La Gavia,40.36878210729123,-3.5969286239354488,Madrid,16124,Coffee Shop
-46,Starbucks Equinoccio,40.4551483483061,-3.8735268071479103,Majadahonda,17933,Cafeteria
-47,Starbucks Pozuelo,40.43816816158585,-3.793838131943415,Pozuelo de Alarcón,12613,Cafeteria
+35,Starbucks Príncipe Pío,40.421949993513195,-3.7203776278003375,Madrid,9866,Coffee Shop
+36,Starbucks ECI Pozuelo,40.463101058172825,-3.806382840888177,Pozuelo de Alarcón,12264,Cafeteria
+37,Starbucks Teatro Real,40.418106483857194,-3.709606077515513,Madrid,9918,Cafeteria
+38,Starbucks Distrito Telefónica,40.515285,-3.6631304,Madrid,1598,Cafeteria
+39,Starbucks,40.418054,-3.710009,Madrid,9935,Cafeteria
+40,Starbucks Las Rozas Village,40.51836776876095,-3.9029260202946063,Las Rozas,19713,Coffee Shop
+41,Starbucks Room Mate Oscar,40.42075183549848,-3.6993145297210788,Madrid,9381,Cafeteria
+42,Starbucks,40.403120577140534,-3.687687685586035,Madrid,11122,Cafeteria
+43,Starbucks CC La Gavia,40.36878210729123,-3.5969286239354488,Madrid,16124,Coffee Shop
+44,Starbucks Plaza Río 2,40.39130385405477,-3.701122858987979,Madrid,12608,Cafeteria
+45,Starbucks ECI Méndez Álvaro,40.39469,-3.676454,Madrid,11979,Cafeteria
+46,Starbucks Parquesur,40.3393318306369,-3.7333420586110004,Leganés,18887,Coffee Shop
+47,Starbucks Palace,40.414995,-3.695058,Madrid,9921,Cafeteria

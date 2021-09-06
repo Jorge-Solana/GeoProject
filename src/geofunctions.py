@@ -12,25 +12,26 @@ from bson.json_util import dumps
 
 
 
-def funcionquefunciona (df,ciudad):
+def funcionquefunciona(df, ciudad):
     '''
-    Esta función va a recibir un dataframe y una ciudad y lo que va a hacer es, transformar ese dataframe en un
-    geodataframe generando las coordenadas como las lee mongo db y creando una nueva columna con las mismas (por cada
-    uno de los estableciemientos en nuestro dataframe original). Seguidamente, se conecta con Mongo db y nos crea 
-    la base de datos con sus coleccions (la ciudad que le pasamos) y genera un index de tipo 2dspehere para cada valor
-    de la nueva columna de coordenadas generada antes, para poder hacer posteriormente las geoqueries.
-    Recibe: un dataframe y una ciudad
-    Devuelve: un mensaje que nos indica que la base de datos con las colecciones y los index han sido creados con éxito
+    Esta función coge un dataframe y lo convierte en base de datos en Mongo db.
+    Args:
+        df (pd.DataFrame)
+        ciudad (str)
+    Returns: 
+        mensaje Buenísima (str): mensaje que nos indica que se han creado con éxito las colecciones dentro de la base de datos   
+    '''
     
-    '''
-    gdf = gdp.GeoDataFrame(df, geometry= gdp.points_from_xy(df.lng, df.lat ))
+    # a continuación transformamos el dataframe que entra en un geodataframe y generamos la geometría para luego hacer las geoqueries
+    
+    gdf = gdp.GeoDataFrame(df, geometry= gdp.points_from_xy(df.longitud, df.latitud ))
     print(gdf.columns)
-    gdf.columns=['nombre', 'lat','lng','ciudad','distancia','loc','loc2' ]
+    gdf.columns=['nombre', 'latitud','longitud','ciudad','distancia','tipo','loc2' ]
     
     gdf['loc2']= gdf['loc2'].apply(lambda x:shapely.geometry.mapping(x))
     
     client = MongoClient()
-    db = client.GeoProject
+    db = client.GeoProject3
     collection = db.create_collection(name = f'{ciudad}')
     collection = db[f'{ciudad}']
     collection.create_index([("loc2", "2dsphere")])
@@ -42,12 +43,12 @@ def funcionquefunciona (df,ciudad):
 
 def geoquery(coordenadas, coleccion): #las coordenadas en formato lista (long y lat)
     '''
-    Esta función, a partir de unas coordenadas y de una colección que tenemos creada en Mongo db, nos devuelve un json. 
-    Esto lo hace a través de la query geoNear, donde esecificamos los criterios que debe seguir la misma. Después 
-    llamamos a la colección y agregamos la query a la misma y a la respuesta que nos da le aplicamos un dumps y nos 
-    devuelve un json con los ruquerimientos especificados.
-    Recibe: coordenadas (formato lista) y colección de Mongo db (previamente hecha la conexión)
-    Devuelve: json
+    Esta función nos la query de geoNear a la colección de Mongo indicada.
+    Args: 
+        coordenadas (list)
+        coleccion (pymongo.collection.Collection)
+    Returns: 
+        response_json (json)
     '''
     query = [{'$geoNear': {'near':coordenadas,
                       'distanceField' : 'distance',
@@ -55,6 +56,8 @@ def geoquery(coordenadas, coleccion): #las coordenadas en formato lista (long y 
                        'distanceMultiplier': 6371,
                        'spherical': True}}]
     
+    
+    # aquí vamos a agregar la query especificada antes a una colección en concreto y la respuesta la convertiremos en un json
     col = coleccion
     geoloc = col.aggregate(query)
     response_json = json.loads(dumps(geoloc))
@@ -64,35 +67,41 @@ def geoquery(coordenadas, coleccion): #las coordenadas en formato lista (long y 
 
 
 
-def toDataFrame (df):
+def toDataFrame(df):
     '''
-    Esta función recibe un dataframe y nos lo limpia y filtra por la distancia que le especifiquemos.
-    Recibe: dataframe
-    Devuelve: dataframe filtrado 
+    Esta función recibe un dataframe y nos lo limpia.
+    Args: 
+        df (pd.DataFrame)
+    Returns: 
+        df (pd.DataFrame): filtrado por la distancia indicada
     '''
     
-    df = df[['nombre', 'ciudad', 'distancia']]
-    df = df[df['distancia'] < 6000]
+    df = df[['nombre', 'ciudad', 'distancia']] # estas son las 3 columnas que nos interesan en nuestro dataframe
+    df = df[df['distancia'] < 6000] # especificamos la distancia máxima a la que tiene que filtrar
     return df
 
 
-def todo2 (coordenadas, coleccion):
+def todo2(coordenadas, coleccion):
     '''
-    Esta función une la función de geoquery y la función de toDataFrame y me hace las dos en una.
-    Recibe: coordenadas (en formato lista) y una colección de Mongo db (previamente conectada)
-    Return: un dataframe filtrado por las condiciones establecidas en la función toDataFrame
+    Hace la geoquery y convierte la respuesta en un dataframe.
+    Args: 
+        coordenadas (list)
+        coleccion (pymongo.collection.Collection)
+    Returns: 
+        df (pd.DataFrame)
     
     '''
     geo = geoquery(coordenadas, coleccion)
     return toDataFrame (json_normalize(geo))
 
 
-def agrega (df):
+def agrega(df):
     '''
-    Esta función me genera un dataframe nuevo a partir de otro, haciendo un grouby por tipo y haciendo una media de la
-    distancia de todos los valores que tienen ese mismo tipo en nuestro dataframe.
-    Recibe: dataframe donde en 'tipo' hay valores reepetidos
-    Return: dataframe con valores en 'tipo' únicos y otra columna de distancia que es la media de todos los repetidos
+    Hace un groupby y resetea el index del dataframe.
+    Args: 
+        df (pd.DataFrame)
+    Returns: 
+        df_agregado (pd.DataFrame): la columna 'tipo' tiene valores únicos y la 'distancia' es la media de los valores de 'tipo'
     
     '''
     df_agregado = df.groupby('tipo').agg({'distancia': 'mean'})

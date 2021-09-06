@@ -10,24 +10,31 @@ import shapely.geometry
 import geopandas
 
 
+
 def getFromDict(diccionario, mapa):
     '''
-    Esta función bucea por el diccionario que le damos en base a un mapa (ruta) que también se le da.
-    Dentro de el diccionario irá a donde el mapa le indique.
-    Recibe : diccionario y mapa ('hoja de ruta')
-    Devuelve: lo espcificado dentro del diccionario pr el mapa
+    Esta función bucea por el diccionario según le indiquemos con el mapa.
+    Args: 
+        diccionario (dict)
+        mapa ()
+    Returns: 
+        un chorizamen 
     '''
     from functools import reduce
     import operator
     return reduce(operator.getitem,mapa,diccionario)
 
 
-def getAPI(url_query, coordenadas, query): #coordenadas en string, latitud y longitud (en ese orden)
+def getAPI(url_query, coordenadas, query, client_id, client_secret): 
     '''
-    Esta función llama a la API en base a unas coordenadas y a una query que le demos (restaurantes, gimansios, etc.) 
-    y nos devuelve un json.
-    Recibe : url de la API, coordenadas (en formato string), query (qué queremos que nos busque)
-    Devuelve: json en base a los parámetros establecidos
+    Esta función llama a la API.
+    
+    Args: 
+        url_query (url)
+        coordenadas (str)
+        query (str)
+    Returns: 
+        resp (json)
     '''
     parametros = {
     "client_id": client_id,
@@ -37,6 +44,9 @@ def getAPI(url_query, coordenadas, query): #coordenadas en string, latitud y lon
     "query": f"{query}",
     "limit": 200   
 }
+    # a continuación en base a los parámetros establecidos hacemos la llamada conviertondola en un json
+    # y especificando que nos devuelva lo que hay dentro de 'venues' que está a su vez dentro de 'response'
+    
     resp = requests.get(url_query, params=parametros).json()['response']['venues']
     
     return resp
@@ -44,15 +54,13 @@ def getAPI(url_query, coordenadas, query): #coordenadas en string, latitud y lon
 
 def limpiezaresp(json):
     '''
-    Esta función limpia la respuesta json que nos devuelve la llamada a la API.
-    Dentro del for loop llama a la función getFromDict con los mapas(rutas), establecidos en esta función,
-    y coge lo que le indicamos dentro de esa ruta y lo coloca ordenado según lo que le indiquemos (nombre, logitud, etc).
-    Estas itercaiones las coloca en un json nuevo (jason), al que se va apendando cada iteración. Para meter en el dataframe 
-    final que queremos la columna de tipo, generamos el for dentro del for para llegar a la indicación 'name' y que nos 
-    meta en el df una nueva columan 'tipo'
+    Esta función limpia la respuesta json que nos devuelve la llamada a la API convirtiendola en un data frame.
     
-    Recibe: json
-    Devuelve: dataframe con 6 columnas
+    Args: 
+        json (list[dict]) 
+
+    Returns: 
+        pd.DataFrame: data frame con 6 columnas
     
     '''
     mapa_nombre = ['name']
@@ -78,23 +86,30 @@ def limpiezaresp(json):
     
     df = pd.DataFrame(jason)
     
+    # aqui hacemos un for denrto de otro for para bucear dentro de la respuesta del json, ya que con el mapa no podemos
+    # sacaremos el tipo de de cada una de nuestras categorías y esto lo apendamos a una lista la cual luego la convertimos
+    # en una columna nueva de nuestro data frame
     tipo = []
     for i in json:
         for z in i["categories"]:
             tipo.append(z["name"])
-    tipo = pd.Series(tipo)
+    tipo = pd.Series(tipo) #si no se convierte en una serie de pandas no se une correctamente al dataframe final
     
     df['tipo'] = tipo
     
     return df
 
 
-def todo(url_query, coordenadas, query):
+def todo(url_query, coordenadas, query, client_id, client_secret):
     '''
-    Esta función resume la función de la llamada a la API y la limpieza del json, llama a las dos.
-    Recibe: la url de la API, las coordenadas de la localización a estudiar y la query que queremos que nos devuelva la API
-    Devuelve: el json limpio con la información justa que queremos.
+    Llama a la API y y limpia la respuesta.
+    Args: 
+        url_query (url)
+        coordenadas (str)
+        query (str)
+    Returns: 
+        pd.DataFrame
     '''
-    api = getAPI(url_query, coordenadas, query)
-    return limpiezaresp(api)
+    api = getAPI(url_query, coordenadas, query, client_id, client_secret) 
+    return limpiezaresp(api) 
 

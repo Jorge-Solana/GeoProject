@@ -1,53 +1,53 @@
 ,nombre,latitud,longitud,ciudad,distancia,tipo
 0,Omv! Vegan Burgers & More,40.757819,-73.985537,New York,392,Vegetarian / Vegan Restaurant
-1,Marty's Vegan Fast Foods,40.75016282882269,-73.98887112157107,New York,736,Food Truck
-2,MTHR Vegan,40.762373,-73.98786700000001,New York,652,Vegetarian / Vegan Restaurant
+1,MTHR Vegan,40.762373,-73.98786700000001,New York,652,Vegetarian / Vegan Restaurant
+2,Marty's Vegan Fast Foods,40.75016282882269,-73.98887112157107,New York,736,Food Truck
 3,Happy Zoe Vegan Bakery,40.719246,-73.944252,New York,5681,Bakery
 4,Maoz Vegan,40.751706,-73.974375,New York,1428,Vegetarian / Vegan Restaurant
-5,MTHR Vegan,40.755147,-73.968016,New York,1858,Vegetarian / Vegan Restaurant
-6,Body & Soul Seasonal Vegan Bakery,40.73673444449884,-73.990378551888,New York,2226,Bakery
-7,Nefista Vegan Kofteh,40.729404,-74.00088,New York,3178,Vegetarian / Vegan Restaurant
-8,Vegan Food Court,40.729,-73.989312,New York,3087,Vegetarian / Vegan Restaurant
-9,Vegan Love,40.728523,-73.983258,New York,3190,Vegetarian / Vegan Restaurant
-10,Ginger Root Vegan Restaurant,40.76247513665584,-73.9595827460289,New York,2640,Vegetarian / Vegan Restaurant
-11,Urban Vegan Kitchen,40.730018792418896,-74.00354871522137,New York,3186,Vegetarian / Vegan Restaurant
+5,Body & Soul Seasonal Vegan Bakery,40.73673444449884,-73.990378551888,New York,2226,Bakery
+6,Urban Vegan Kitchen,40.730018792418896,-74.00354871522137,New York,3186,Vegetarian / Vegan Restaurant
+7,MTHR Vegan,40.755147,-73.968016,New York,1858,Vegetarian / Vegan Restaurant
+8,Ginger Root Vegan Restaurant,40.76247513665584,-73.9595827460289,New York,2640,Vegetarian / Vegan Restaurant
+9,Nefista Vegan Kofteh,40.729404,-74.00088,New York,3178,Vegetarian / Vegan Restaurant
+10,Vegan Love,40.728523,-73.983258,New York,3190,Vegetarian / Vegan Restaurant
+11,Vegan Food Court,40.729,-73.989312,New York,3087,Vegetarian / Vegan Restaurant
 12,Vegan AF,40.74502944946289,-74.05038452148438,Jersey City,5259,Vegetarian / Vegan Restaurant
-13,Veganlunchtruck,40.74491417929332,-73.99584958285124,New York,1405,Vegetarian / Vegan Restaurant
-14,The Vegan Palace,40.779112,-73.946269,New York,4447,Vegetarian / Vegan Restaurant
-15,Miami's Original Vegan Food Truck,40.72261282467882,-74.0003142874853,New York,3897,Synagogue
-16,Vegan Car Charge,40.712856214178174,-73.9475862774877,Brooklyn,6052,Vegetarian / Vegan Restaurant
-17,Happy Zoe Vegan Bakery,40.724038,-73.949593,New York,4983,EV Charging Station
-18,vegan divas,40.708547697218954,-73.94315421581268,Brooklyn,6660,Bakery
-19,Vegan Spot,40.732033,-74.071499,Jersey City,7406,Bakery
-20,The Seed: A Vegan Experience HQ,40.722775639806954,-73.99915508111552,New York,3858,Indian Restaurant
-21,Vegan Nights,40.697059,-73.906216,New York,9697,Building
-22,Wildflower Vegan Pop-up Restaurant,40.713829040527344,-73.98966979980469,New York,4775,Vegetarian / Vegan Restaurant
-23,Franchia,40.74754904507587,-73.981123802193,New York,1264,Vegetarian / Vegan Restaurant
-24,A.T.M. Vegan Deli,40.721799,-73.95839,New York,4712,Vegetarian / Vegan Restaurant
-25,Vegan Market,40.696887,-73.93473,Brooklyn,8129,Vegetarian / Vegan Restaurant
-26,Wii Fit Gym ~ Vegan Central,40.71506118774414,-73.98038482666016,New York,4708,Vegetarian / Vegan Restaurant
-27,Heirloom Vegan Eatery,40.71015167236328,-73.96492767333984,Brooklyn,5598,Gym
-28,Sweet Vegan Chocolates,40.8093603,-73.95752039999999,New York,6465,Vegetarian / Vegan Restaurant
-29,Vegan Shop Up,40.70545603972797,-73.93287439927106,Brooklyn,7467,Chocolate Shop
-30,Wild Ginger Pan-Asian Vegan Cuisine,40.718986041942884,-73.9552670325744,New York,5120,Vegetarian / Vegan Restaurant
-31,Try Vegan,40.69758290951775,-73.98154805548008,New York,6622,Vegetarian / Vegan Restaurant
-32,Seasoned Vegan,40.800625,-73.952693,New York,5809,Food Truck
-33,American Vegan,40.678094,-73.968887,New York,8932,Vegetarian / Vegan Restaurant
-34,Greedi Vegan,40.676284,-73.952139,New York,9506,Vegetarian / Vegan Restaurant
-35,Familiars Vegan Coffee Shop,40.686824,-73.923341,Brooklyn,9599,Vegetarian / Vegan Restaurant
-36,Nefista-Vegan Koftah(Çig Köfte),40.82661831870663,-73.98717214971539,Cliffside Park,7783,Coffee Shop
-37,B.A.D. Gyal Vegan,40.681204,-73.956281,Brooklyn,8874,Turkish Restaurant
-38,Spread Vegan,40.67928243493098,-73.97296777588734,Brooklyn,8739,Restaurant
-39,Fat Boys Vegan Burgers,40.678868,-73.94948,New York,9316,Vegetarian / Vegan Restaurant
-40,The Green Vegan Monsta,40.687511,-73.918534,New York,9781,Vegetarian / Vegan Restaurant
-41,Otto's Vegan Sausage Palace,40.69340869977818,-74.08777958725375,Jersey City,10852,Smoothie Shop
-42,Valerio Juice Bar & Vegan Food,40.784263,-73.84564,Queens,12547,Pizza Place
-43,Next Stop Vegan,40.837501525878906,-73.86637115478516,Bronx,13759,Juice Bar
-44,Four Saison Vegan,40.667254,-73.930952,Brooklyn,11135,Vegetarian / Vegan Restaurant
-45,Ginger House Vegan,40.635905,-73.975538,New York,13505,Vegetarian / Vegan Restaurant
-46,Happy Vegans,40.741894,-74.02956,Hoboken,3725,Vegetarian / Vegan Restaurant
-47,"Tea NJ ""Vegan Friendly Cafe""",40.72306576170709,-74.04904445655535,Jersey City,6235,Vegetarian / Vegan Restaurant
-48,Red Bamboo,40.731319,-74.000359,New York,2961,Tea Room
+13,The Vegan Palace,40.779112,-73.946269,New York,4447,Vegetarian / Vegan Restaurant
+14,Franchia,40.74754904507587,-73.981123802193,New York,1264,Synagogue
+15,Happy Zoe Vegan Bakery,40.724038,-73.949593,New York,4983,Vegetarian / Vegan Restaurant
+16,Vegan Car Charge,40.712856214178174,-73.9475862774877,Brooklyn,6052,Bakery
+17,vegan divas,40.708547697218954,-73.94315421581268,Brooklyn,6660,EV Charging Station
+18,Miami's Original Vegan Food Truck,40.72261282467882,-74.0003142874853,New York,3897,Bakery
+19,The Seed: A Vegan Experience HQ,40.722775639806954,-73.99915508111552,New York,3858,Vegetarian / Vegan Restaurant
+20,Vegan Spot,40.732033,-74.071499,Jersey City,7406,Building
+21,Vegan Nights,40.697059,-73.906216,New York,9697,Indian Restaurant
+22,Veganlunchtruck,40.74491417929332,-73.99584958285124,New York,1405,Vegetarian / Vegan Restaurant
+23,Wii Fit Gym ~ Vegan Central,40.71506118774414,-73.98038482666016,New York,4708,Vegetarian / Vegan Restaurant
+24,A.T.M. Vegan Deli,40.721799,-73.95839,New York,4712,Gym
+25,Wild Ginger Pan-Asian Vegan Cuisine,40.718986041942884,-73.9552670325744,New York,5120,Vegetarian / Vegan Restaurant
+26,Vegan Market,40.696887,-73.93473,Brooklyn,8129,Vegetarian / Vegan Restaurant
+27,Wildflower Vegan Pop-up Restaurant,40.713829040527344,-73.98966979980469,New York,4775,Vegetarian / Vegan Restaurant
+28,Familiars Vegan Coffee Shop,40.686824,-73.923341,Brooklyn,9599,Vegetarian / Vegan Restaurant
+29,Vegan Shop Up,40.70545603972797,-73.93287439927106,Brooklyn,7467,Coffee Shop
+30,Heirloom Vegan Eatery,40.71015167236328,-73.96492767333984,Brooklyn,5598,Vegetarian / Vegan Restaurant
+31,Greedi Vegan,40.676284,-73.952139,New York,9506,Vegetarian / Vegan Restaurant
+32,Sweet Vegan Chocolates,40.8093603,-73.95752039999999,New York,6465,Vegetarian / Vegan Restaurant
+33,American Vegan,40.678094,-73.968887,New York,8932,Chocolate Shop
+34,Try Vegan,40.69758290951775,-73.98154805548008,New York,6622,Vegetarian / Vegan Restaurant
+35,Seasoned Vegan,40.800625,-73.952693,New York,5809,Food Truck
+36,"Tea NJ ""Vegan Friendly Cafe""",40.72306576170709,-74.04904445655535,Jersey City,6235,Vegetarian / Vegan Restaurant
+37,Nefista-Vegan Koftah(Çig Köfte),40.82661831870663,-73.98717214971539,Cliffside Park,7783,Tea Room
+38,Spread Vegan,40.67928243493098,-73.97296777588734,Brooklyn,8739,Turkish Restaurant
+39,B.A.D. Gyal Vegan,40.681204,-73.956281,Brooklyn,8874,Vegetarian / Vegan Restaurant
+40,Fat Boys Vegan Burgers,40.678868,-73.94948,New York,9316,Restaurant
+41,Red Bamboo,40.731319,-74.000359,New York,2961,Vegetarian / Vegan Restaurant
+42,The Green Vegan Monsta,40.687511,-73.918534,New York,9781,Vegetarian / Vegan Restaurant
+43,Wild Ginger Vegetarian Kitchen,40.7204313711967,-73.99663971306008,New York,4079,Smoothie Shop
+44,Otto's Vegan Sausage Palace,40.69340869977818,-74.08777958725375,Jersey City,10852,Asian Restaurant
+45,Next Stop Vegan,40.837501525878906,-73.86637115478516,Bronx,13759,Pizza Place
+46,Four Saison Vegan,40.667254,-73.930952,Brooklyn,11135,Vegetarian / Vegan Restaurant
+47,Ginger House Vegan,40.635905,-73.975538,New York,13505,Vegetarian / Vegan Restaurant
+48,Valerio Juice Bar & Vegan Food,40.784263,-73.84564,Queens,12547,Vegetarian / Vegan Restaurant
 0,Start Up Funding Pros,40.74776090469428,-73.98086071014404,New York,1259,Financial or Legal Service
 1,Social Serious Start Up,40.70797,-73.91990200000001,Brooklyn,8024,Tech Startup
 2,StartUpHealth,40.739841403624496,-73.9867591687836,New York,1899,Building
@@ -55,149 +55,149 @@
 4,CBOA Pick Up/Drop Off Point #1,40.75621,-73.990425,New York,69,Bus Stop
 5,Start Hear,40.748425,-73.993111,New York,961,Doctor's Office
 6,Slim-Up (Slim Up NYC),40.7540856,-73.9917036,New York,329,Spa
-7,Dress Me Up NY,40.75312042236328,-73.98999786376953,New York,401,Women's Store
-8,United Parcel Service - UPS Customer Center,40.76180091941051,-73.99807271025585,New York,886,Distribution Center
-9,Ramp Up Technology,40.752995,-73.986231,New York,521,Arts & Crafts Store
-10,TerraCycle: Green Up Shop,40.75685119628906,-73.99166107177734,New York,144,Boutique
-11,inkd Life Pop-Up Shop,40.75590896606445,-73.99210357666016,New York,202,Salon / Barbershop
-12,Beauty By Clara Oh hair and make up at L'energie Salon,40.74937438964844,-73.98356628417969,New York,980,General Travel
-13,Get Up and Ride Bike Tours of NYC,40.7630993,-73.9990215,New York,1042,Food Truck
-14,Other Half Pop-Up Beer Truck,40.74816691149229,-73.98792992809034,New York,968,Gift Shop
-15,Sharper Image Pop Up Store,40.756219,-73.985953,New York,342,Office
-16,Wheels Up,40.756876,-73.987625,New York,197,General Travel
-17,Up And Away Travel,40.746541718592496,-73.98348215257546,New York,1258,School
-18,Bank Street Head Start West,40.757117,-73.993862,New York,331,Vegetarian / Vegan Restaurant
-19,blue start factory,40.754047,-73.992049,New York,346,Salon / Barbershop
-20,"Two Tablespoons, Veggie Pop Up",40.755991,-73.986346,New York,315,Salon / Barbershop
-21,squad up bus,40.756324,-73.994965,New York,424,Gift Shop
-22,Herbal Essences Pop Up Salon,40.758571,-73.98553,New York,426,Clothing Store
-23,Step Up Hair Salon,40.752506256103516,-73.98529815673828,New York,612,Office
-24,Paul  Frank Pop-Up Shop,40.759639739990234,-73.98697662353516,New York,410,Men's Store
-25,"Pop Up Shop, Sip and Style",40.7546501159668,-73.9927978515625,New York,332,Pop-Up Shop
-26,shut up,40.75599,-73.983916,New York,516,Office
-27,Wind-up Records,40.74391270091715,-73.98547936000143,New York,1475,Tech Startup
-28,2(X)IST Pop-up Store,40.754135116935096,-73.98712646658963,New York,374,Women's Store
-29,Whalebone Pop-Up,40.73329,-74.0043,New York,2875,Miscellaneous Shop
-30,Mixed-Up Mosaics,40.752535,-73.992717,New York,521,Mexican Restaurant
-31,Wicked Start,40.752977,-73.98675673333334,New York,497,Gay Bar
-32,Zac Posen For Target Pop-up Store,40.752655029296875,-73.99352264404297,New York,544,Health & Beauty Service
-33,Mel's Pop Up Shoe Shine,40.76009727377451,-73.9843258030732,New York,605,Event Space
-34,Mexikosher Pop-Up NYC (Pitopia),40.75213365945918,-73.98774862289429,New York,544,BBQ Joint
-35,Bottom's Up/Vodka Soda,40.76018093601126,-73.98868054889009,New York,399,Wine Bar
-36,Laser Up,40.752586364746094,-73.99175262451172,New York,485,Gift Shop
-37,Lean Startup Machine #LsmNYC,40.743485595786325,-73.9842167600201,New York,1551,Bridal Shop
-38,Mainhouse Bbq Pop Up,40.75215530395508,-73.98773193359375,New York,542,Café
-39,City Winery Pop Up,40.758847,-73.978622,New York,984,Event Space
-40,Sanrio Small Gift Pop-Up Tour,40.75129038591325,-73.98803323003932,New York,626,Laundry Service
-41,Thread Bridesmaid Pop-up Shop,40.753117,-73.983854,New York,653,Building
-42,Gevalia Kaffe Pop-Up Store,40.760199,-73.986376,New York,490,Art Gallery
-43,Venus Step Up & Step Out NY Tour Stop,40.758601,-73.984464,New York,508,Cosmetics Shop
-44,"Bonny's Wholesale & Clean Up, Corp",40.757628000000004,-73.99749399999999,New York,643,Art Gallery
-45,Fired Up Digital,40.7376487,-73.98861819999999,Cambridge,2127,Gym
-46,Sex Workers’ Pop-Up,40.732749938964844,-73.9969253540039,New York,2733,
-47,Done Up Salon,40.752579,-73.985424,New York,599,
-48,Jonathan LeVine Pop-Up,40.74870526295262,-74.00641836879076,New York,1650,
-49,SurfSet Fitness April Pop-up,40.74262331045646,-74.00714445727561,New York,2136,
-0,BluePearl Veterinary Partners,40.7667959,-73.9876774,New York,1136,Veterinarian
-1,West Chelsea Veterinary,40.746621,-73.99624589999999,New York,1243,Veterinarian
-2,Rivergate Veterinary Clinic,40.74571663342377,-73.97162505008271,New York,1973,Veterinarian
-3,West Village Veterinary Hospital,40.7396051177395,-74.00296437301637,New York,2199,Veterinarian
-4,Vetcierge Veterinary House Calls,40.77090835571289,-73.98853302001953,New York,1582,Veterinarian
-5,First Ave Veterinary Hospital and Dental Clinic,40.734737268371774,-73.9799697719141,New York,2589,Veterinarian
-6,Heart Of Chelsea Veterinary Group,40.761943,-73.99260500000001,New York,621,Veterinarian
-7,Lincoln Square Veterinary,40.775251891741185,-73.98335613410607,New York,2135,Veterinarian
+7,Ramp Up Technology,40.752995,-73.986231,New York,521,Women's Store
+8,Dress Me Up NY,40.75312042236328,-73.98999786376953,New York,401,Gift Shop
+9,STORY,40.750865752734846,-73.98927211761475,New York,655,Office
+10,Wheels Up,40.756876,-73.987625,New York,197,Arts & Crafts Store
+11,TerraCycle: Green Up Shop,40.75685119628906,-73.99166107177734,New York,144,Office
+12,Up2Us Sports,40.75378164464228,-73.99240446178794,New York,387,Office
+13,Wind-up Records,40.74391270091715,-73.98547936000143,New York,1475,Boutique
+14,inkd Life Pop-Up Shop,40.75590896606445,-73.99210357666016,New York,202,Salon / Barbershop
+15,Beauty By Clara Oh hair and make up at L'energie Salon,40.74937438964844,-73.98356628417969,New York,980,General Travel
+16,Get Up and Ride Bike Tours of NYC,40.7630993,-73.9990215,New York,1042,Food Truck
+17,Other Half Pop-Up Beer Truck,40.74816691149229,-73.98792992809034,New York,968,Health & Beauty Service
+18,Step Up Skin Laser,40.7511814,-73.98215979999999,New York,902,General Travel
+19,Up And Away Travel,40.746541718592496,-73.98348215257546,New York,1258,Distribution Center
+20,United Parcel Service - UPS Customer Center,40.76180091941051,-73.99807271025585,New York,886,School
+21,Bank Street Head Start West,40.757117,-73.993862,New York,331,Gift Shop
+22,blue start factory,40.754047,-73.992049,New York,346,Trade School
+23,Sharper Image Pop Up Store,40.756219,-73.985953,New York,342,Pop-Up Shop
+24,Make Up For Ever,40.73470968625764,-73.99072119277746,New York,2452,Vegetarian / Vegan Restaurant
+25,Whalebone Pop-Up,40.73329,-74.0043,New York,2875,Wine Bar
+26,"Two Tablespoons, Veggie Pop Up",40.755991,-73.986346,New York,315,Boutique
+27,City Winery Pop Up,40.758847,-73.978622,New York,984,Gift Shop
+28,Hamilton Pop Up Store,40.759459985291315,-73.98734994671369,New York,375,Miscellaneous Shop
+29,squad up bus,40.756324,-73.994965,New York,424,Salon / Barbershop
+30,Paul  Frank Pop-Up Shop,40.759639739990234,-73.98697662353516,New York,410,Restaurant
+31,Real Simple Pop-Up Shop,40.75379165484874,-73.98367166519165,New York,623,Clothing Store
+32,shut up,40.75599,-73.983916,New York,516,Office
+33,Step Up Hair Salon,40.752506256103516,-73.98529815673828,New York,612,Men's Store
+34,JBF LTD: James Beard Foundation Pop-up,40.74191330545312,-74.00467582464348,New York,2064,Mexican Restaurant
+35,"Pop Up Shop, Sip and Style",40.7546501159668,-73.9927978515625,New York,332,Health & Beauty Service
+36,Mixed-Up Mosaics,40.752535,-73.992717,New York,521,Café
+37,2(X)IST Pop-up Store,40.754135116935096,-73.98712646658963,New York,374,Tech Startup
+38,Mexikosher Pop-Up NYC (Pitopia),40.75213365945918,-73.98774862289429,New York,544,Salon / Barbershop
+39,Laser Up,40.752586364746094,-73.99175262451172,New York,485,Gift Shop
+40,Gevalia Kaffe Pop-Up Store,40.760199,-73.986376,New York,490,Miscellaneous Shop
+41,Wicked Start,40.752977,-73.98675673333334,New York,497,BBQ Joint
+42,Herbal Essences Pop Up Salon,40.758571,-73.98553,New York,426,Event Space
+43,Sanrio Small Gift Pop-Up Tour,40.75129038591325,-73.98803323003932,New York,626,Women's Store
+44,Mel's Pop Up Shoe Shine,40.76009727377451,-73.9843258030732,New York,605,Bridal Shop
+45,Mainhouse Bbq Pop Up,40.75215530395508,-73.98773193359375,New York,542,Event Space
+46,Lean Startup Machine #LsmNYC,40.743485595786325,-73.9842167600201,New York,1551,
+47,Zac Posen For Target Pop-up Store,40.752655029296875,-73.99352264404297,New York,544,
+48,Thread Bridesmaid Pop-up Shop,40.753117,-73.983854,New York,653,
+49,Venus Step Up & Step Out NY Tour Stop,40.758601,-73.984464,New York,508,
+0,West Chelsea Veterinary,40.746621,-73.99624589999999,New York,1243,Veterinarian
+1,BluePearl Veterinary Partners,40.7667959,-73.9876774,New York,1136,Veterinarian
+2,West Village Veterinary Hospital,40.7396051177395,-74.00296437301637,New York,2199,Veterinarian
+3,Rivergate Veterinary Clinic,40.74571663342377,-73.97162505008271,New York,1973,Veterinarian
+4,Lincoln Square Veterinary,40.775251891741185,-73.98335613410607,New York,2135,Veterinarian
+5,Vetcierge Veterinary House Calls,40.77090835571289,-73.98853302001953,New York,1582,Veterinarian
+6,First Ave Veterinary Hospital and Dental Clinic,40.734737268371774,-73.9799697719141,New York,2589,Veterinarian
+7,Heart Of Chelsea Veterinary Group,40.761943,-73.99260500000001,New York,621,Veterinarian
 8,Pure Paws Veterinary Care of Hell's Kitchen,40.7596826,-73.996128,New York,615,Veterinarian
 9,Abingdon Square Veterinary Clinic,40.734650042872524,-74.00020147441094,New York,2605,Veterinarian
-10,Veterinary Wellness Center Of Boerum Hill,40.683579,-73.982161,New York,8169,Veterinarian
-11,Upper East Veterinary,40.78448127577927,-73.95187233265833,New York,4455,Veterinarian
+10,Upper East Veterinary,40.78448127577927,-73.95187233265833,New York,4455,Veterinarian
+11,Veterinary Wellness Center Of Boerum Hill,40.683579,-73.982161,New York,8169,Veterinarian
 12,Westside Veterinary Center,40.7859906,-73.9774203,New York,3424,Veterinarian
 13,BluePearl Veterinary Partners,40.68368503091848,-73.97902247490951,Brooklyn,8183,Veterinarian
-14,Veterinary Emergency Group,40.8375746,-74.1532187,Clifton,16440,Veterinarian
-15,Veterinary Emergency Group,40.7536019,-74.0294849,Hoboken,3351,Veterinarian
-16,St. Marks Veterinary Hospital,40.7282413,-73.9855078,New York,3193,Veterinarian
-17,Veterinary Care Unlimited,40.683790117639646,-73.85608195031452,Ozone Park,13910,Veterinarian
-18,Small Door Veterinary,40.7366084,-74.0004949,New York,2409,Veterinarian
-19,Veterinary Emergency Group,40.61561199690642,-73.92956474172179,Brooklyn,16515,Veterinarian
-20,Veterinary Emergency Group,40.763749,-73.962177,New York,2469,Veterinarian
-21,Clinton Veterinary Center,40.7644319,-73.98706349999999,New York,891,Veterinarian
-22,Kalvig & Shorter Veterinary Associates,40.74936,-73.97701,New York,1365,Emergency Room
-23,Veterinary Emergency Group,40.7999,-74.124539,Lyndhurst,12320,Veterinarian
-24,Heights Veterinary Associates,40.74849486,-74.0554712,Jersey City,5599,Veterinarian
-25,Firefly Veterinary Hospital,40.742624,-73.996285,New York,1658,Pet Service
-26,BluePearl Veterinary Partners,40.736982,-73.993478,New York,2218,Veterinarian
-27,Columbus Circle Veterinary,40.76940578795823,-73.98462457797842,New York,1481,Veterinarian
-28,Lexington Veterinary Group,40.74953,-73.976906,New York,1361,Veterinarian
-29,Downtown Veterinary Associates,40.72194213879247,-74.04665867122365,Jersey City,6153,Veterinarian
-30,Maureen Walsh Veterinary Medicine & Surgery,40.76942825317383,-73.98487854003906,New York,1477,Veterinarian
-31,Uptown Veterinary Associates,40.801832485814465,-73.95682218650818,New York,5745,Veterinarian
-32,Felton Veterinary Services,40.716175,-73.963752,Brooklyn,5026,Veterinarian
-33,Pearly Bites Veterinary,40.742513,-73.996184,New York,1667,Veterinarian
-34,Greenpoint Veterinary,40.72424775738802,-73.94943467221583,Brooklyn,4975,Veterinarian
-35,Veterinary Emergency & Referral Group (VERG),40.61568989990145,-73.92943491276961,Brooklyn,16510,Veterinarian
-36,Paws and Claws Veterinary Hospital,40.72037333982284,-73.95856108107547,Brooklyn,4836,Veterinarian
-37,Veterinary Emergency & Referral Group,40.67830985736285,-73.98250839321021,New York,8752,Veterinarian
-38,Pure Paws Veterinary Care of Clinton Hill,40.6824733,-73.9630804,Brooklyn,8571,Veterinarian
-39,Cats Exclusive Veterinary Hospital,40.832935,-73.991035,Ridgefield,8483,Veterinarian
-40,Small Door Veterinary,40.769084,-73.960867,New York,2812,Veterinarian
-41,City Veterinary Care,40.77901115685278,-73.98258687507209,New York,2557,Veterinarian
-42,PAWSitive Veterinary of New York,40.647129908693756,-73.96907740726945,Brooklyn,12327,Veterinarian
-43,York Veterinary Center,40.767371,-73.95513,New York,3166,Veterinarian
-44,Williamsburg Veterinary Clinic,40.731027000000005,-73.954685,Brooklyn,4127,Veterinarian
-45,Off Leash Veterinary Care,40.73855209350586,-74.00897216796875,New York,2581,Veterinarian
-46,Blue Pearl Veterinary Partners,40.735488000000004,-73.98599300000001,New York,2388,Veterinarian
-47,Cathedral Dog & Cat Veterinary Hospital,40.798162,-73.969669,New York,4919,Business Service
-48,Christopher Park Veterinary Hospital,40.733833000000004,-74.00050300000001,New York,2699,Veterinarian
-49,Newport Veterinary Center,40.72727075742846,-74.03212898439257,Jersey City,4837,
-0,Ritz Bar & Lounge,40.76084409354975,-73.99032233051244,New York,458,Gay Bar
-1,Rudy's Bar & Grill,40.7599319591241,-73.99159047097984,New York,382,Dive Bar
-2,Industry Bar,40.76429872976654,-73.98703044372803,New York,878,Gay Bar
-3,Iron Bar & Lounge,40.7591498,-73.988653,New York,291,Cocktail Bar
-4,Dalton's Bar & Grill,40.759256091378646,-73.99202422088419,New York,330,Sports Bar
-5,Hibernia Bar,40.76365,-73.9891,New York,773,Bar
-6,Bar 54,40.757404646876275,-73.98418353116445,New York,492,Bar
-7,Hardware Bar,40.76318209849134,-73.99289005599256,New York,759,Gay Bar
-8,Mercury Bar West,40.76078094829809,-73.99090207540895,New York,457,Sports Bar
-9,Harbor Bar,40.75481461571331,-73.98414719532295,New York,534,Bar
-10,Latitude Bar & Lounge,40.760937,-73.9875069,New York,511,Bar
+14,St. Marks Veterinary Hospital,40.7282413,-73.9855078,New York,3193,Veterinarian
+15,Downtown Veterinary Associates,40.72194213879247,-74.04665867122365,Jersey City,6153,Veterinarian
+16,Clinton Veterinary Center,40.7644319,-73.98706349999999,New York,891,Veterinarian
+17,Veterinary Emergency Group,40.8375746,-74.1532187,Clifton,16440,Veterinarian
+18,Greenpoint Veterinary,40.72424775738802,-73.94943467221583,Brooklyn,4975,Veterinarian
+19,Veterinary Emergency Group,40.7536019,-74.0294849,Hoboken,3351,Veterinarian
+20,Kalvig & Shorter Veterinary Associates,40.74936,-73.97701,New York,1365,Veterinarian
+21,Heights Veterinary Associates,40.74849486,-74.0554712,Jersey City,5599,Veterinarian
+22,Small Door Veterinary,40.7366084,-74.0004949,New York,2409,Veterinarian
+23,Columbus Circle Veterinary,40.76940578795823,-73.98462457797842,New York,1481,Veterinarian
+24,Veterinary Care Unlimited,40.683790117639646,-73.85608195031452,Ozone Park,13910,Pet Service
+25,BluePearl Veterinary Partners,40.736982,-73.993478,New York,2218,Veterinarian
+26,Uptown Veterinary Associates,40.801832485814465,-73.95682218650818,New York,5745,Veterinarian
+27,City Veterinary Care,40.77901115685278,-73.98258687507209,New York,2557,Veterinarian
+28,Veterinary Emergency Group,40.763749,-73.962177,New York,2469,Veterinarian
+29,Veterinary Emergency Group,40.61561199690642,-73.92956474172179,Brooklyn,16515,Veterinarian
+30,Paws and Claws Veterinary Hospital,40.72037333982284,-73.95856108107547,Brooklyn,4836,Veterinarian
+31,Firefly Veterinary Hospital,40.742624,-73.996285,New York,1658,Veterinarian
+32,Pure Paws Veterinary Care of Clinton Hill,40.6824733,-73.9630804,Brooklyn,8571,Emergency Room
+33,Veterinary Emergency Group,40.7999,-74.124539,Lyndhurst,12320,Veterinarian
+34,Felton Veterinary Services,40.716175,-73.963752,Brooklyn,5026,Veterinarian
+35,Lexington Veterinary Group,40.74953,-73.976906,New York,1361,Veterinarian
+36,Maureen Walsh Veterinary Medicine & Surgery,40.76942825317383,-73.98487854003906,New York,1477,Veterinarian
+37,PAWSitive Veterinary of New York,40.647129908693756,-73.96907740726945,Brooklyn,12327,Veterinarian
+38,Veterinary Emergency & Referral Group (VERG),40.61568989990145,-73.92943491276961,Brooklyn,16510,Veterinarian
+39,Pearly Bites Veterinary,40.742513,-73.996184,New York,1667,Veterinarian
+40,Veterinary Emergency & Referral Group,40.67830985736285,-73.98250839321021,New York,8752,Veterinarian
+41,Williamsburg Veterinary Clinic,40.731027000000005,-73.954685,Brooklyn,4127,Veterinarian
+42,Cats Exclusive Veterinary Hospital,40.832935,-73.991035,Ridgefield,8483,Veterinarian
+43,Bensonhurst Veterinary,40.61097234978262,-73.99177169879236,Brooklyn,16226,Veterinarian
+44,Blue Pearl Veterinary Partners,40.735488000000004,-73.98599300000001,New York,2388,Veterinarian
+45,York Veterinary Center,40.767371,-73.95513,New York,3166,Veterinarian
+46,Cooper Square Veterinary Hospital,40.72746618943346,-73.99061496749717,New York,3258,Veterinarian
+47,Small Door Veterinary,40.769084,-73.960867,New York,2812,Veterinarian
+48,Center for Veterinary Care,40.771006185304344,-73.95767296793264,New York,3152,Veterinarian
+49,Worth Street Veterinary Center,40.71675266718981,-74.0056727692407,New York,4643,
+0,Rudy's Bar & Grill,40.7599319591241,-73.99159047097984,New York,382,Dive Bar
+1,Ritz Bar & Lounge,40.76084409354975,-73.99032233051244,New York,458,Gay Bar
+2,Bar 54,40.757404646876275,-73.98418353116445,New York,492,Bar
+3,Dalton's Bar & Grill,40.759256091378646,-73.99202422088419,New York,330,Sports Bar
+4,Iron Bar & Lounge,40.7591498,-73.988653,New York,291,Cocktail Bar
+5,Zoob Zib Thai Noodle Bar,40.75452956940237,-73.99556553080292,New York,532,Thai Restaurant
+6,Harbor Bar,40.75481461571331,-73.98414719532295,New York,534,Bar
+7,Applebee's Grill + Bar,40.75682302336609,-73.9888198065129,New York,96,American Restaurant
+8,At Nine Restaurant & Bar,40.758808554441515,-73.99236495693143,New York,307,Thai Restaurant
+9,Hibernia Bar,40.76365,-73.9891,New York,773,Bar
+10,Mercury Bar West,40.76078094829809,-73.99090207540895,New York,457,Sports Bar
 11,Sake Bar Hagi 46,40.76062666718955,-73.99003949599008,New York,433,Japanese Restaurant
-12,At Nine Restaurant & Bar,40.758808554441515,-73.99236495693143,New York,307,Thai Restaurant
-13,Applebee's Grill + Bar,40.75682302336609,-73.9888198065129,New York,96,American Restaurant
-14,Smith's Bar & Restaurant,40.758695936006795,-73.98908920232871,New York,230,Bar
-15,Zoob Zib Thai Noodle Bar,40.75452956940237,-73.99556553080292,New York,532,Thai Restaurant
-16,Kabooz's Bar and Grill,40.750407354942595,-73.99308109754108,New York,751,New American Restaurant
+12,Industry Bar,40.76429872976654,-73.98703044372803,New York,878,Gay Bar
+13,Hardware Bar,40.76318209849134,-73.99289005599256,New York,759,Gay Bar
+14,Latitude Bar & Lounge,40.760937,-73.9875069,New York,511,Bar
+15,The Jolly Goat Coffee Bar,40.76324477334396,-73.99416619410337,New York,807,Coffee Shop
+16,Smith's Bar & Restaurant,40.758695936006795,-73.98908920232871,New York,230,Bar
 17,Ayza Wine & Chocolate Bar,40.7471282,-73.98690429999999,New York,1099,Wine Bar
-18,The Jolly Goat Coffee Bar,40.76324477334396,-73.99416619410337,New York,807,Coffee Shop
-19,Pocket Bar NYC,40.763252613122496,-73.99241683506325,New York,755,Bar
-20,Barcelona Bar,40.7652778417369,-73.98374504800434,New York,1086,Bar
-21,Barracuda Bar,40.74456530914799,-73.99844422703585,New York,1531,Gay Bar
-22,Anytime Soju Bar and Eatery,40.74780808819708,-73.98679824648289,New York,1028,Korean Restaurant
-23,Zibetto Espresso Bar,40.75908072713993,-73.98209303729396,New York,713,Café
-24,St. Pat's Bar (St. Pat's Bar & Grill),40.756462821681176,-73.98033811216897,New York,811,Bar
+18,Zibetto Espresso Bar,40.75908072713993,-73.98209303729396,New York,713,Café
+19,Kabooz's Bar and Grill,40.750407354942595,-73.99308109754108,New York,751,New American Restaurant
+20,St. Pat's Bar (St. Pat's Bar & Grill),40.756462821681176,-73.98033811216897,New York,811,Bar
+21,Pocket Bar NYC,40.763252613122496,-73.99241683506325,New York,755,Bar
+22,Ace Hotel Lobby Bar,40.74583046684671,-73.9881650005538,New York,1222,Hotel Bar
+23,Rowland’s Bar & Grill,40.75085661,-73.98948006,New York,655,Bar
+24,Anytime Soju Bar and Eatery,40.74780808819708,-73.98679824648289,New York,1028,Korean Restaurant
 25,Scallywag's Bar & Grill,40.75620883350506,-73.99427205230263,New York,368,Pub
-26,Walter's Bar,40.74929668498292,-73.99552431601508,New York,951,Dive Bar
-27,Bar Nine,40.7656919607909,-73.98746753497036,New York,1019,Bar
-28,Ace Hotel Lobby Bar,40.74583046684671,-73.9881650005538,New York,1222,Hotel Bar
-29,Rowland’s Bar & Grill,40.75085661,-73.98948006,New York,655,Bar
-30,Winnie's Lobby Bar,40.752196,-73.985574,New York,625,Cocktail Bar
+26,The Modern—Bar Room,40.76105680468243,-73.9765927897423,New York,1225,Cocktail Bar
+27,Applebee's Grill + Bar,40.761470159763284,-73.98400899571226,New York,728,American Restaurant
+28,Bill's Bar & Burger,40.7592896,-73.9775348,New York,1085,Burger Joint
+29,Benefit Brow Bar,40.751087,-73.989677,New York,628,Cosmetics Shop
+30,New York City Bar Association,40.75536218078325,-73.98267961379067,New York,632,Office
 31,R/GA Coffee Bar 318,40.75556616348179,-73.99241777260337,New York,244,Café
-32,Bar Feroce,40.746334,-73.990875,New York,1159,Hotel Bar
-33,Benefit Brow Bar,40.751087,-73.989677,New York,628,Cosmetics Shop
-34,Buenavista Restaurant & Bar,40.75686719,-73.99351312,New York,299,Restaurant
-35,Nordstrom Coffee Bar,40.766572,-73.982039,New York,1283,Café
-36,Artichoke Basille's Pizza & Bar,40.74398619943481,-74.00666236380273,New York,1999,Pizza Place
-37,T.S. Ma Asian Cuisine & Sushi Bar,40.755027770996094,-73.9947509765625,New York,446,Asian Restaurant
-38,Library Bar,40.76260109365135,-73.98191213607788,New York,942,Gastropub
-39,Cask Bar & Kitchen,40.745366347319944,-73.9791266488786,New York,1560,Pub
-40,Blue Ribbon Sushi Bar & Grill,40.76760994989555,-73.98290953446875,New York,1349,Sushi Restaurant
-41,Bar Centrale,40.760194233006665,-73.98890778719762,New York,395,American Restaurant
-42,Niles NYC Bar & Restaurant,40.74881834354991,-73.99230879095883,New York,902,Hotel Bar
-43,Applebee's Grill + Bar,40.761470159763284,-73.98400899571226,New York,728,American Restaurant
-44,The Modern—Bar Room,40.76105680468243,-73.9765927897423,New York,1225,Cocktail Bar
+32,Barcelona Bar,40.7652778417369,-73.98374504800434,New York,1086,Bar
+33,Winnie's Lobby Bar,40.752196,-73.985574,New York,625,Cocktail Bar
+34,Sant Ambroeus Coffee Bar,40.76436530280706,-73.96935449385504,New York,1934,Café
+35,R/GA Coffee Bar,40.75594845273153,-73.99365898368325,New York,323,Café
+36,Nordstrom Coffee Bar,40.766572,-73.982039,New York,1283,Café
+37,Bar Feroce,40.746334,-73.990875,New York,1159,Hotel Bar
+38,News Bar Cafe,40.734145,-73.992428,New York,2522,Café
+39,Blue Ribbon Sushi Bar & Grill,40.76760994989555,-73.98290953446875,New York,1349,Sushi Restaurant
+40,Buenavista Restaurant & Bar,40.75686719,-73.99351312,New York,299,Restaurant
+41,Jack's Restaurant and Bar,40.75465483544198,-73.98762136998639,New York,303,American Restaurant
+42,Barracuda Bar,40.74456530914799,-73.99844422703585,New York,1531,Gay Bar
+43,Walter's Bar,40.74929668498292,-73.99552431601508,New York,951,Dive Bar
+44,Library Bar,40.76260109365135,-73.98191213607788,New York,942,Gastropub
 45,Harvard Club Main Bar,40.755504407253284,-73.98146277621939,New York,729,Bar
-46,Pioneers Bar,40.74710078537464,-73.99123951792717,New York,1077,Bar
-47,Beauty Bar,40.73276143000341,-73.9859072326042,New York,2689,Bar
-48,Living Room Bar @ W New York - Time Square,40.75937271118164,-73.98568725585938,New York,465,Lounge
-49,Paramount Bar and Grill,40.7594674508133,-73.98718969504199,New York,383,Hotel Bar
+46,Crossroads American Kitchen & Bar,40.75871,-73.986319,New York,377,Restaurant
+47,Bar Nine,40.7656919607909,-73.98746753497036,New York,1019,Bar
+48,Momofuku Milk Bar,40.744103,-73.999242,New York,1608,Dessert Shop
+49,The Bar,40.76097323649972,-73.97720117034368,New York,1174,Hotel Bar
 0,Starbucks,40.75663838,-73.99094694,New York,83,Coffee Shop
 1,Starbucks,40.760041,-73.985579,New York,521,Coffee Shop
 2,Starbucks,40.75799862,-73.98894971,New York,164,Coffee Shop
@@ -207,44 +207,44 @@
 6,Starbucks,40.76056698741214,-73.98380932982371,New York,671,Coffee Shop
 7,Starbucks,40.755393094045175,-73.9910754150045,New York,176,Coffee Shop
 8,Starbucks,40.7556288776424,-73.98387285120268,New York,527,Coffee Shop
-9,Starbucks Reserve Roastery,40.74166158826782,-74.00507982765883,New York,2107,Coffee Shop
+9,Starbucks,40.753647,-73.988434,New York,366,Coffee Shop
 10,Starbucks,40.76399216,-73.98258137,New York,1020,Coffee Shop
-11,Starbucks,40.753647,-73.988434,New York,366,Coffee Shop
-12,Starbucks,40.75696029208336,-73.98937805564258,New York,55,Coffee Shop
-13,Starbucks,40.75099963907575,-73.97505692268861,New York,1409,Coffee Shop
-14,Starbucks,40.76223640083641,-73.98763905244529,New York,643,Coffee Shop
+11,Starbucks Reserve Roastery,40.74166158826782,-74.00507982765883,New York,2107,Coffee Shop
+12,Starbucks,40.76223640083641,-73.98763905244529,New York,643,Coffee Shop
+13,Starbucks,40.75696029208336,-73.98937805564258,New York,55,Coffee Shop
+14,Starbucks,40.75099963907575,-73.97505692268861,New York,1409,Coffee Shop
 15,Starbucks,40.752632,-73.992905,New York,519,Coffee Shop
-16,Starbucks,40.75312,-73.985115,New York,573,Coffee Shop
-17,Starbucks,40.76372,-73.98531,New York,871,Coffee Shop
+16,Starbucks,40.76372,-73.98531,New York,871,Coffee Shop
+17,Starbucks,40.75312,-73.985115,New York,573,Coffee Shop
 18,Starbucks,40.7569017629723,-73.98128721212817,New York,731,Coffee Shop
 19,Starbucks,40.75374802982616,-73.9993136594133,New York,855,Coffee Shop
-20,Starbucks,40.763706,-73.9773,New York,1320,Coffee Shop
-21,Starbucks,40.75824934428419,-73.98588716983795,New York,382,Coffee Shop
-22,Starbucks,40.751,-73.987015,New York,684,Coffee Shop
-23,Starbucks,40.749138,-73.983826,New York,990,Coffee Shop
-24,Starbucks,40.7489585,-73.99231501,New York,887,Coffee Shop
-25,Starbucks,40.74927198,-73.98927764,New York,832,Coffee Shop
-26,Starbucks,40.746975,-73.993324,New York,1122,Coffee Shop
-27,Starbucks,40.754292223412804,-73.98704612024362,New York,366,Coffee Shop
-28,Starbucks,40.75696,-73.9759,New York,1185,Coffee Shop
-29,Starbucks,40.748974,-73.98229,New York,1078,Coffee Shop
-30,Starbucks,40.75052701,-73.98815428,New York,707,Coffee Shop
-31,Starbucks,40.76926215,-73.98480808,New York,1461,Coffee Shop
-32,Starbucks,40.75372078426121,-73.97847568936413,New York,1024,Coffee Shop
-33,Starbucks,40.75953488433791,-73.98098084615312,New York,818,Coffee Shop
-34,Starbucks,40.755463,-73.98015,New York,839,Coffee Shop
-35,Starbucks,40.761845,-73.9787,New York,1107,Coffee Shop
-36,Starbucks,40.76307676,-73.97228402,New York,1649,Coffee Shop
-37,Starbucks,40.75765063202952,-73.96921981020988,New York,1751,Coffee Shop
-38,Starbucks,40.75645964,-73.97835262,New York,979,Coffee Shop
-39,Starbucks,40.73698,-73.9964,New York,2264,Coffee Shop
-40,Starbucks,40.75119363,-73.99093502,New York,621,Coffee Shop
-41,Starbucks,40.76734686,-73.98290708,New York,1323,Coffee Shop
-42,Starbucks,40.75097141255199,-73.99345099925995,New York,705,Coffee Shop
+20,Starbucks,40.75824934428419,-73.98588716983795,New York,382,Coffee Shop
+21,Starbucks,40.763706,-73.9773,New York,1320,Coffee Shop
+22,Starbucks,40.7489585,-73.99231501,New York,887,Coffee Shop
+23,Starbucks,40.751,-73.987015,New York,684,Coffee Shop
+24,Starbucks,40.74927198,-73.98927764,New York,832,Coffee Shop
+25,Starbucks,40.749138,-73.983826,New York,990,Coffee Shop
+26,Starbucks,40.75696,-73.9759,New York,1185,Coffee Shop
+27,Starbucks,40.746975,-73.993324,New York,1122,Coffee Shop
+28,Starbucks,40.75372078426121,-73.97847568936413,New York,1024,Coffee Shop
+29,Starbucks,40.75953488433791,-73.98098084615312,New York,818,Coffee Shop
+30,Starbucks,40.754292223412804,-73.98704612024362,New York,366,Coffee Shop
+31,Starbucks,40.75052701,-73.98815428,New York,707,Coffee Shop
+32,Starbucks,40.76926215,-73.98480808,New York,1461,Coffee Shop
+33,Starbucks,40.745068,-73.98686,New York,1324,Coffee Shop
+34,Starbucks,40.75645964,-73.97835262,New York,979,Coffee Shop
+35,Starbucks,40.76307676,-73.97228402,New York,1649,Coffee Shop
+36,Starbucks,40.75765063202952,-73.96921981020988,New York,1751,Coffee Shop
+37,Starbucks,40.761845,-73.9787,New York,1107,Coffee Shop
+38,Starbucks,40.748974,-73.98229,New York,1078,Coffee Shop
+39,Starbucks,40.75403866,-73.97186289,New York,1555,Coffee Shop
+40,Starbucks,40.743572,-73.99203,New York,1475,Coffee Shop
+41,Starbucks,40.76072487,-73.9787691,New York,1043,Coffee Shop
+42,Starbucks,40.75119363,-73.99093502,New York,621,Coffee Shop
 43,Starbucks,40.74900081,-73.99035964,New York,861,Coffee Shop
-44,Starbucks,40.743572,-73.99203,New York,1475,Coffee Shop
-45,Starbucks,40.745068,-73.98686,New York,1324,Coffee Shop
+44,Starbucks,40.73698,-73.9964,New York,2264,Coffee Shop
+45,Starbucks,40.75041692,-73.97917487,New York,1149,Coffee Shop
 46,Starbucks,40.74405161,-73.98373659,New York,1505,Coffee Shop
-47,Starbucks,40.76072487,-73.9787691,New York,1043,Coffee Shop
-48,Starbucks,40.75403866,-73.97186289,New York,1555,Coffee Shop
-49,Starbucks Reserve,40.759393,-73.985288,New York,493,Coffee Shop
+47,Starbucks,40.76734686,-73.98290708,New York,1323,Coffee Shop
+48,Starbucks,40.75097141255199,-73.99345099925995,New York,705,Coffee Shop
+49,Starbucks,40.755463,-73.98015,New York,839,Coffee Shop
