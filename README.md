@@ -29,11 +29,11 @@ Para la realización de este proyecto se han seguuido una serie de pasos:
         - Veterinario x 0.5
         - Bar x 0.25
     
-    - Teniendo las ponderaciones de cada parámetro de cada ciudad, queremos reducir estos 5 valores en tan solo 1 para tener una estimación de lo buena o mala que es esa ciudad para situar la empresa. 
+    - Teniendo las ponderaciones de cada parámetro de cada ciudad, queremos reducir estos 5 valores en tan solo 1 para tener una estimación de lo buena o mala que es esa ciudad para situar la empresa, para ello se ha realizado un sumatorio de todos los valore y luego se ha normalizado sobre 10, para ser más claro. El número menor será el mejor valor.
 
 ## Conclusiones
 
-Finalmente, después de realizar la ponderación y sacar los números, vemos que la mejor ciudad para localizar la empresa es .... ya que ...
+Finalmente, después de realizar la ponderación y la normalización, vemos que la mejor ciudad para localizar la empresa es Nueva York ya que es la ciudad que tiene las prioridades de la empresa más cerca que las otras ciudades del estudio, además, es la única que tiene un centro veterinario dentro de un radio menor de 6 kilómetros.
 
 ## Librerías usadas
 

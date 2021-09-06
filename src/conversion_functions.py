@@ -47,10 +47,12 @@ def limpiezaresp(json):
     Esta función limpia la respuesta json que nos devuelve la llamada a la API.
     Dentro del for loop llama a la función getFromDict con los mapas(rutas), establecidos en esta función,
     y coge lo que le indicamos dentro de esa ruta y lo coloca ordenado según lo que le indiquemos (nombre, logitud, etc).
-    Estas itercaiones las coloca en un json nuevo (jason), al que se va apendando cada iteración. Por último
-    nos devuelve ese jsno en forma de data frame.
+    Estas itercaiones las coloca en un json nuevo (jason), al que se va apendando cada iteración. Para meter en el dataframe 
+    final que queremos la columna de tipo, generamos el for dentro del for para llegar a la indicación 'name' y que nos 
+    meta en el df una nueva columan 'tipo'
+    
     Recibe: json
-    Devuelve: dataframe
+    Devuelve: dataframe con 6 columnas
     
     '''
     mapa_nombre = ['name']
@@ -58,6 +60,7 @@ def limpiezaresp(json):
     mapa_longitud = ['location', 'lng']
     mapa_ciudad = ['location','city']
     mapa_distancia = ['location','distance']
+    
     
     jason = []
     
@@ -72,7 +75,18 @@ def limpiezaresp(json):
             jason.append(diccio)
         except:
             pass
-    return pd.DataFrame(jason)
+    
+    df = pd.DataFrame(jason)
+    
+    tipo = []
+    for i in json:
+        for z in i["categories"]:
+            tipo.append(z["name"])
+    tipo = pd.Series(tipo)
+    
+    df['tipo'] = tipo
+    
+    return df
 
 
 def todo(url_query, coordenadas, query):

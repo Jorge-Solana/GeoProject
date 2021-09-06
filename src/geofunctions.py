@@ -39,6 +39,31 @@ def funcionquefunciona (df,ciudad):
     
     return 'Buenisima'
 
+
+def geoquery(coordenadas, coleccion): #las coordenadas en formato lista (long y lat)
+    '''
+    Esta función, a partir de unas coordenadas y de una colección que tenemos creada en Mongo db, nos devuelve un json. 
+    Esto lo hace a través de la query geoNear, donde esecificamos los criterios que debe seguir la misma. Después 
+    llamamos a la colección y agregamos la query a la misma y a la respuesta que nos da le aplicamos un dumps y nos 
+    devuelve un json con los ruquerimientos especificados.
+    Recibe: coordenadas (formato lista) y colección de Mongo db (previamente hecha la conexión)
+    Devuelve: json
+    '''
+    query = [{'$geoNear': {'near':coordenadas,
+                      'distanceField' : 'distance',
+                       'maxDistance': 6000,
+                       'distanceMultiplier': 6371,
+                       'spherical': True}}]
+    
+    col = coleccion
+    geoloc = col.aggregate(query)
+    response_json = json.loads(dumps(geoloc))
+    
+    return response_json
+
+
+
+
 def toDataFrame (df):
     '''
     Esta función recibe un dataframe y nos lo limpia y filtra por la distancia que le especifiquemos.
@@ -51,3 +76,25 @@ def toDataFrame (df):
     return df
 
 
+def todo2 (coordenadas, coleccion):
+    '''
+    Esta función une la función de geoquery y la función de toDataFrame y me hace las dos en una.
+    Recibe: coordenadas (en formato lista) y una colección de Mongo db (previamente conectada)
+    Return: un dataframe filtrado por las condiciones establecidas en la función toDataFrame
+    
+    '''
+    geo = geoquery(coordenadas, coleccion)
+    return toDataFrame (json_normalize(geo))
+
+
+def agrega (df):
+    '''
+    Esta función me genera un dataframe nuevo a partir de otro, haciendo un grouby por tipo y haciendo una media de la
+    distancia de todos los valores que tienen ese mismo tipo en nuestro dataframe.
+    Recibe: dataframe donde en 'tipo' hay valores reepetidos
+    Return: dataframe con valores en 'tipo' únicos y otra columna de distancia que es la media de todos los repetidos
+    
+    '''
+    df_agregado = df.groupby('tipo').agg({'distancia': 'mean'})
+    df_agregado.reset_index(inplace = True)
+    return df_agregado

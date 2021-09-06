@@ -58,35 +58,24 @@ client = MongoClient("localhost:27017")
 db = client.get_database("GeoProject")
 
 m = db.get_collection("mad")
-b = db.get_collection("bcn")
+b = db.get_collection("bnc")
 ny = db.get_collection('ny')
 
-query = [{'$geoNear': {'near':[-73.98996, 40.75673],
-                      'distanceField' : 'distance',
-                       'maxDistance': 6000,
-                       'distanceMultiplier': 6371,
-                       'spherical': True}}]
-geoloc_ny = ny.aggregate(query)
-ny_response_json = json.loads(dumps(geoloc_ny))
+ny_ = gf.todo2 ([-73.98996, 40.75673], ny)
+bcn_ = gf.todo2([-3.67097, 40.50222], b)
+mad_ = gf.todo2([2.19763, 41.40080], m)
 
-query2 =[{'$geoNear': {'near':[2.19763, 41.40080],
-                      'distanceField' : 'distance',
-                       'maxDistance': 6000,
-                       'distanceMultiplier': 6371,
-                       'spherical': True}}]
-geoloc_mad = m.aggregate(query2)
-mad_response_json = json.loads(dumps(geoloc_mad))
+ny_agregado = gf.agrega(ny_)
+mad_agregado = gf.agrega(mad_)
+bcn_agregado = gf.agrega(bcn_)
 
-query3 =[{'$geoNear': {'near':[-3.67097, 40.50222],
-                      'distanceField' : 'distance',
-                       'maxDistance': 6000,
-                       'distanceMultiplier': 6371,
-                       'spherical': True}}]
-geoloc_bcn = b.aggregate(query3)
-bcn_response_json = json.loads(dumps(geoloc_bcn))
 
-ny = gf.toDataFrame(json_normalize(ny_response_json))
-mad = gf.toDataFrame(json_normalize(mad_response_json))
-bcn = gf.toDataFrame(json_normalize(bcn_response_json))
+ny_acortado = ny_agregado[(ny_agregado['tipo'] == 'Vegetarian / Vegan Restaurant') | (ny_agregado['tipo'] == 'Café')
+             | (ny_agregado['tipo'] == 'Tech Startup') | (ny_agregado['tipo'] == 'Bar')]
+
+bcn_acortado = bcn_agregado[(bcn_agregado['tipo'] == 'Vegetarian / Vegan Restaurant') | (bcn_agregado['tipo'] == 'Café')
+             | (bcn_agregado['tipo'] == 'Tech Startup') | (bcn_agregado['tipo'] == 'Food & Drink Shop')]
+
+
 
 
